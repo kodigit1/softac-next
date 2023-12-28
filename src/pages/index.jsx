@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <Wrapper>
       <SEO pageTitle={"Softec - Payment Gateway"} />
-      <HomeOne />
+      <HomeTwo />
     </Wrapper>
   );
 };
