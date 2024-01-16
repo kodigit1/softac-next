@@ -20,7 +20,6 @@ const About = () => {
       <Brand />
       <CompanyArea />
       <AboutArea />
-      <TeamArea bg_style={true} />
       <JourneyArea />
       <JobArea />
       <CtaArea />
