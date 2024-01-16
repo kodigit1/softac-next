@@ -17,7 +17,7 @@ const menu_data = [
   {
     id: 2,
     mega_menu: false,
-    has_dropdown: true,
+    has_dropdown: false,
     title: "Pages",
     link: "/about",
     active: "",
