@@ -51,16 +51,6 @@ const menu_data = [
   },
 
   
-  
-  {
-    id: 4,
-    mega_menu: false,
-    has_dropdown: false,
-    title: "Contact",
-    link: "/contact",
-    active: "",
-  },
-  
 
 ];
 export default menu_data;
