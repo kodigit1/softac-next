@@ -7,12 +7,12 @@ import service_img_2 from "../../../../public/assets/img/service/service-shape-3
 import Image from 'next/image';
 
 const service_content = {
-   title: <>Accounting Software <br /> That <span>Handles it All.</span></>,
+   title: <>Gestione degli appuntamenti <br /> That <span>Semplice e intuitiva.</span></>,
    btn_text: <>See All Features</>,
 
    bg_img: "/assets/img/service/service-3-bg.png",
    service_title: "CRM Management",
-   service_info: <>Generate, Manage, and Convert leads <br /> into Customers. Automatically</>,
+   service_info: <>Prenotazioni online, Gestione appuntamenti per offerte pacchetto, gestione appuntamenti ricorrenti <br /> notifiche prenotazioni ai clienti vie email-sms</>,
 }
 const {title, btn_text, bg_img, service_title, service_info}  = service_content
 
