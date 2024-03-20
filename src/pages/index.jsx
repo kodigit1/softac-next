@@ -1,13 +1,13 @@
 import React from "react";
 import SEO from "../common/seo";
-import HomeTwo from "../components/homes/home-2";
+import HomeThree from "../components/homes/home-3";
 import Wrapper from "../layout/wrapper";
 
 const Home = () => {
   return (
     <Wrapper>
       <SEO pageTitle={"Softec - Payment Gateway"} />
-      <HomeTwo />
+      <HomeThree />
     </Wrapper>
   );
 };
