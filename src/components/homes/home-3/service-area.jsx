@@ -7,8 +7,8 @@ import service_img_2 from "../../../../public/assets/img/service/service-shape-3
 import Image from 'next/image';
 
 const service_content = {
-   title: <>Gestione degli appuntamenti <br /> That <span>Semplice e intuitiva.</span></>,
-   btn_text: <>See All Features</>,
+   title: <>Gestione degli appuntamenti <br />in cloud <span>Semplice e intuitiva.</span></>,
+   btn_text: <>Tutti i Servizi</>,
 
    bg_img: "/assets/img/service/service-3-bg.png",
    service_title: "CRM Management",
