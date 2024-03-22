@@ -18,8 +18,8 @@ const menu_data = [
     id: 2,
     mega_menu: false,
     has_dropdown: false,
-    title: "Pages",
-    link: "/about",
+    title: "Integrazioni",
+    link: "/integrations",
     active: "",
     sub_menus: [
       { link: "/about", title: "About" },
@@ -41,8 +41,8 @@ const menu_data = [
     id: 3,
     mega_menu: false,
     has_dropdown: false,
-    title: "Integrazioni",
-    link: "/integrations",
+    title: "Contatti",
+    link: "/contact",
     active: "",
     sub_menus: [
       { link: "/project", title: "Project" },
