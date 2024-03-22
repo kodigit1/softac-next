@@ -18,7 +18,7 @@ const menu_data = [
     id: 2,
     mega_menu: false,
     has_dropdown: false,
-    title: "Project",
+    title: "Altri servizi",
     link: "/project",
     active: "",
     sub_menus: [
