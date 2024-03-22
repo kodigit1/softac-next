@@ -75,7 +75,7 @@ const portfolio_data = [
         title: <>Coupon</>,
         des: <>Genera coupon da utilizzare per i canali social o nel negozio fisico.</>,
         delay: ".5s",
-        category: "Illusutration",
+        category: "Marketing",
         filter_id: ["all", "Agenda", "Sito Web", "Marketing"],
     }, 
     {
