@@ -97,7 +97,7 @@ const portfolio_data = [
         title: <>Newsletter</>,
         des: <>Invia Offerte, Promozioni e Novità ai tuoi clienti con un click.</>,
         delay: ".5s",
-        category: "App Design",
+        category: "Marketing",
         filter_id: ["all", "Agenda", "Sito Web", "Marketing" ],
     }, 
     {
@@ -108,7 +108,7 @@ const portfolio_data = [
         title: <>Pagamenti</>,
         des: <>Ricevi pagamento online con Stripe, Paypal, Google Pay o Apple Pay.</>,
         delay: ".5s",
-        category: "Development",
+        category: "Sito Web",
         filter_id: ["all", "Agenda", "Sito Web", "Marketing" ],
     }, 
     {
@@ -119,7 +119,7 @@ const portfolio_data = [
         title: <>GDPR Compliance</>,
         des: <>Il tuo sistema aggiornato con le ultime indicazioni GDPR.</>,
         delay: ".5s",
-        category: "App Design",
+        category: "Sito Web",
         filter_id: ["all", "Agenda", "Sito Web", "Marketing" ],
     }, 
 
