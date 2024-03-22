@@ -31,8 +31,8 @@ const portfolio_data = [
         title: <>Airbnb Upgrade</>,
         des: <>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</>,
         delay: ".5s",
-        category: "Design Work",
-        filter_id: ["all", "Design Work", "Branding", "Development", "Illusutration", "App Design" ],
+        category: "Agenda",
+        filter_id: ["all", "Agenda", "Branding", "Development", "Illusutration", "App Design" ],
     }, 
     {
         id: 2,
@@ -43,7 +43,7 @@ const portfolio_data = [
         des: <>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</>,
         delay: ".5s",
         category: "Branding",
-        filter_id: ["all", "Design Work", "Branding", "Development", "Illusutration", "App Design" ],
+        filter_id: ["all", "Agenda", "Branding", "Development", "Illusutration", "App Design" ],
     }, 
     {
         id: 3,
@@ -54,7 +54,7 @@ const portfolio_data = [
         des: <>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</>,
         delay: ".5s",
         category: "Design Work",
-        filter_id: ["all", "Design Work", "Branding", "Development", "Illusutration", "App Design" ],
+        filter_id: ["all", "Agenda", "Branding", "Development", "Illusutration", "App Design" ],
     }, 
     {
         id: 4,
@@ -65,7 +65,7 @@ const portfolio_data = [
         des: <>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</>,
         delay: ".5s",
         category: "Development",
-        filter_id: ["all", "Design Work", "Branding", "Development", "Illusutration", "App Design" ],
+        filter_id: ["all", "Agenda", "Branding", "Development", "Illusutration", "App Design" ],
     }, 
     {
         id: 5,
@@ -76,7 +76,7 @@ const portfolio_data = [
         des: <>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</>,
         delay: ".5s",
         category: "Illusutration",
-        filter_id: ["all", "Design Work", "Branding", "Development", "Illusutration", "App Design" ],
+        filter_id: ["all", "Agenda", "Branding", "Development", "Illusutration", "App Design" ],
     }, 
     {
         id: 6,
@@ -87,7 +87,7 @@ const portfolio_data = [
         des: <>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</>,
         delay: ".5s",
         category: "Design Work",
-        filter_id: ["all", "Design Work", "Branding", "Development", "Illusutration", "App Design" ],
+        filter_id: ["all", "Agenda", "Branding", "Development", "Illusutration", "App Design" ],
     }, 
     {
         id: 7,
@@ -98,7 +98,7 @@ const portfolio_data = [
         des: <>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</>,
         delay: ".5s",
         category: "App Design",
-        filter_id: ["all", "Design Work", "Branding", "Development", "Illusutration", "App Design" ],
+        filter_id: ["all", "Agenda", "Branding", "Development", "Illusutration", "App Design" ],
     }, 
     {
         id: 8,
@@ -109,7 +109,7 @@ const portfolio_data = [
         des: <>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</>,
         delay: ".5s",
         category: "Development",
-        filter_id: ["all", "Design Work", "Branding", "Development", "Illusutration", "App Design" ],
+        filter_id: ["all", "Agenda", "Branding", "Development", "Illusutration", "App Design" ],
     }, 
     {
         id: 9,
@@ -120,7 +120,7 @@ const portfolio_data = [
         des: <>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</>,
         delay: ".5s",
         category: "App Design",
-        filter_id: ["all", "Design Work", "Branding", "Development", "Illusutration", "App Design" ],
+        filter_id: ["all", "Agenda", "Branding", "Development", "Illusutration", "App Design" ],
     }, 
 
     
