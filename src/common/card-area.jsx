@@ -50,10 +50,11 @@ const card_content = {
         },
     ],
 
-    title: <>Manage <span>All your Cards</span> in one Place</>,
-    description: <>Digital products are where it’s at! There are so many benefits
-    to selling digital products. It’s easy to get started and they <br />
-    can be extremely profitable</>,
+    title: <>Manage <span>Porta la tua attività</span> Online</>,
+    description: <>ti consente di gestire le prenotazioni, organizzare gli orari del tuo team, offrire più servizi con prezzi e 
+        durate diverse, gestire molte sedi aziendali diverse, offrire servizi e pagamenti online e in loco e risparmiare diversi ore al giorno. 
+        Con il nostro sistema di prenotazione avrai più tempo per concentrarti sullo sviluppo del tuo business <br />
+    sullo sviluppo del tuo business</>,
     btn_text: "Get Started Free"
 }
 const {card_images, title, description, btn_text}  = card_content
