@@ -34,7 +34,7 @@ const  ServiceArea = () => {
                            </h3>
                            <Link className="tp-btn-blue-lg tp-btn-hover mb-10 alt-color-black wow tpfadeRight" 
                            data-wow-duration=".9s" 
-                           data-wow-delay=".5s" href="/service-details"
+                           data-wow-delay=".5s" href="/contact"
                            >
                               <span>{btn_text}</span>
                               <b></b>
@@ -53,12 +53,12 @@ const  ServiceArea = () => {
                            <div className="tp-service-3-content">
                               <span>{service_title}</span>
                               <h4 className="tp-service-3-title-sm">
-                                 <Link href="/service-details">
+                                 <Link href="/contact">
                                     {service_info}
                                  </Link></h4>
                            </div>
                            <div className="tp-service-3-btn">
-                              <Link className="tp-btn-white-solid" href="/service-details">Learn More</Link>
+                              <Link className="tp-btn-white-solid" href="/service-details">Contattaci</Link>
                            </div>
                            <div className="tp-service-3-shape">
                               <Image src={service_img_2} alt="theme-pure" />
@@ -76,7 +76,7 @@ const  ServiceArea = () => {
                               <span>{item.title}</span>
                               <h3 className="tp-service-sm-title"><Link href="/service-details">{item.description} </Link></h3>
                               <div className="tp-service-sm-link">
-                                 <Link href="/service-details">Learn More <i className="far fa-arrow-right"></i></Link>
+                                 <Link href="/contact">Contattaci <i className="far fa-arrow-right"></i></Link>
                               </div>
                            </div>
                         </div>
