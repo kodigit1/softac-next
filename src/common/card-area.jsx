@@ -51,9 +51,9 @@ const card_content = {
     ],
 
     title: <>Beauty Service <span>porta la tua attività</span> Online</>,
-    description: <>ti consente di gestire le prenotazioni, organizzare gli orari del tuo team, offrire più servizi con prezzi e 
+    description: <>Beauty Service ti consente di gestire le prenotazioni, organizzare gli orari del tuo team, offrire più servizi con prezzi e 
         durate diverse, gestire molte sedi aziendali diverse, offrire servizi e pagamenti online e in loco e risparmiare diversi ore al giorno. 
-        Con il nostro sistema di prenotazione avrai più tempo per concentrarti sullo sviluppo del tuo business <br />
+        Con il nostro sistema di prenotazione avrai più tempo per concentrarti <br />
     sullo sviluppo del tuo business</>,
     btn_text: "Get Started Free"
 }
