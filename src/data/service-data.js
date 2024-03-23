@@ -82,7 +82,7 @@ const  service_data = [
         id: 6,
         icon: <ServiceIconOne />,
         img: <ServiceIconOne />,
-        title: "Offri pacchetti di servizi e aumenta le vendite",
+        title: "Pacchetti di servizi ",
         description: <>Promuovi i tuoi servizi e aumenta le vendite raggruppando  <br /> singoli o più servizi in un pacchetto di appuntamenti.</>,
         delay: ".9s",
     },
@@ -90,26 +90,26 @@ const  service_data = [
         id: 7,
         icon: <ServiceIconTwo />,
         img: <ServiceIconTwo />,
-        title: "Consenti ai tuoi clienti di prenotare appuntamenti ricorrenti",
-        description: <>Per evitare di prenotare ogni appuntamento individualmente, la prenotazione 
-        <br /> degli appuntamenti Amelia per WordPress offre a te e ai tuoi clienti la possibilità di pianificare semplicemente più appuntamenti <br /> che ripeteranno il modo impostato..</>,
+        title: "appuntamenti ricorrenti",
+        description: <>pianificare semplicemente più appuntamenti 
+        <br /> che ripeteranno il modo impostato.</>,
         delay: ".9s",
     },
     {
         id: 8,
         icon: <ServiceIconThree />,
         img: <ServiceIconThree />,
-        title: "Accetta pagamenti online e in loco in modo rapido e sicuro",
+        title: "Accetta pagamenti online",
         description: <>Il nostro plug-in per appuntamenti WordPress si integra con i gateway <br />
-            di pagamento più famosi al mondo: PayPal, Stripe, Mollie, RazorPay e WooCommerce. <br />In questo modo i tuoi clienti potranno pagare i servizi subito al momento della prenotazione e tu riceverai i pagamenti anche mentre dormi.</>,
+            di pagamento più famosi al mondo: PayPal, Stripe, Mollie, RazorPay e WooCommerce..</>,
         delay: ".9s",
     },
     {
         id: 9,
         icon: <ServiceIconFoure/>,
         img: <ServiceIconFoure />,
-        title: "Riduci le mancate presentazioni con le notifiche automatizzate",
-        description: <>ti aiuta a mantenere aggiornati i tuoi clienti e a ridurre notevolmente <br />le mancate presentazioni. Con Beauty Service puoi <br />inviare notifiche e promemoria tramite SMS, e-mail e WhatsApp e puoi scegliere se inviarli ai clienti, ai dipendenti o a entrambi.</>,
+        title: "Notifiche automatizzate",
+        description: <>Ridurre notevolmentele mancate presentazioni. Con Beauty Service puoi inviare <br />notifiche e promemoria tramite SMS, e-mail e WhatsApp .</>,
         delay: ".9s",
     },
     
