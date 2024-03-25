@@ -50,11 +50,10 @@ const card_content = {
         },
     ],
 
-    title: <>Manage <span>All your Cards</span> in one Place</>,
-    description: <>Digital products are where it’s at! There are so many benefits
-    to selling digital products. It’s easy to get started and they <br />
-    can be extremely profitable</>,
-    btn_text: "Get Started Free"
+    title: <>La Tua Agenda  <span>sempre sotto controllo</span> sa tutti i dispositivi</>,
+    description: <>Tieni sotto controllo la Agenda appuntamenti della tua attività anche in tua assenza <br />
+    potrai controllare le prenotazioni da qualsiasi luogo e da tutti i dispositivi : PC, Tablet e Smartphone</>,
+    btn_text: "Richiedi una quotazione"
 }
 const {card_images, title, description, btn_text}  = card_content
 
@@ -80,7 +79,7 @@ const CardArea = ({style_service}) => {
                            <h3 className="tp-section-title-3 pb-15">{title}</h3>
                            <p className="">{description}</p>
                               <Link className={`${style_service ? "tp-btn-inner" : "tp-btn-blue-lg"} tp-btn-hover alt-color-black`} 
-                                 href="/service-details">
+                                 href="/contact">
                                  <span>{btn_text}</span> 
                                  <b></b>
                               </Link>
