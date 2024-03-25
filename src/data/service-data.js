@@ -83,7 +83,7 @@ const  service_data = [
         icon: <ServiceIconOne />,
         img: <ServiceIconOne />,
         title: "Software in Cloud",
-        description: <> Potente, veloce <br /> sicuro.</>,
+        description: <> Potente, veloce e sicuro.</>,
         delay: ".9s",
     },
     {
