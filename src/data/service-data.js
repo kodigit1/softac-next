@@ -83,7 +83,7 @@ const  service_data = [
         icon: <ServiceIconOne />,
         img: <ServiceIconOne />,
         title: "Pacchetti di servizi ",
-        description: <>Promuovi i tuoi servizi e aumenta le vendite raggruppando  <br /> singoli o più servizi in un pacchetto di appuntamenti.</>,
+        description: <>Gestisci pacchetti di servizi mulipli con facilità</>,
         delay: ".9s",
     },
     {
@@ -91,8 +91,7 @@ const  service_data = [
         icon: <ServiceIconTwo />,
         img: <ServiceIconTwo />,
         title: "appuntamenti ricorrenti",
-        description: <>pianificare semplicemente più appuntamenti 
-        <br /> che ripeteranno il modo impostato.</>,
+        description: <>Gestisci in modo semplice gli appuntamenti ricorrenti.</>,
         delay: ".9s",
     },
     {
@@ -100,8 +99,7 @@ const  service_data = [
         icon: <ServiceIconThree />,
         img: <ServiceIconThree />,
         title: "Accetta pagamenti online",
-        description: <>Il nostro plug-in per appuntamenti WordPress si integra con i gateway <br />
-            di pagamento più famosi al mondo: PayPal, Stripe, Mollie, RazorPay e WooCommerce..</>,
+        description: <>Chiedi una anticipo sulle prenotazioni con paypal, stripe o Apple Pay.</>,
         delay: ".9s",
     },
     {
@@ -109,7 +107,7 @@ const  service_data = [
         icon: <ServiceIconFoure/>,
         img: <ServiceIconFoure />,
         title: "Notifiche automatizzate",
-        description: <>Ridurre notevolmentele mancate presentazioni. Con Beauty Service puoi inviare <br />notifiche e promemoria tramite SMS, e-mail e WhatsApp .</>,
+        description: <>Notifiche appuntamenti con email o SMS, Whatsapp.</>,
         delay: ".9s",
     },
     
