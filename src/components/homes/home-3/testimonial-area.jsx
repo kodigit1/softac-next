@@ -56,45 +56,33 @@ const testimonial_data = [
     {
         id: 1, 
         img: testimonial_img_1, 
-        name: "Rudra Ghosh",
-        job_title: "Founder & CEO Dulalix",
-        description: <>We get absolutely raving reviews 
-        from our sales and customer support 
-        teams using close. Even our co-
-        founders are very happy.</>,
+        name: "Thea",
+        job_title: "Centro Estetico La Dea - Bologna",
+        description: <>Con il sistema Beauty Service ho finalmente sotto controllo i miei appuntamenti.</>,
 
     },
     {
         id: 2, 
         img: testimonial_img_2, 
-        name: "Rudra Ghosh",
-        job_title: "Founder & CEO Dulalix",
-        description: <>We get absolutely raving reviews 
-        from our sales and customer support 
-        teams using close. Even our co-
-        founders are very happy.</>,
+        name: "Daniela",
+        job_title: "Vivensia - Ferrara",
+        description: <>I miei clienti possono richiedere l'appuntamento online e subito mi arriva una notifica .</>,
 
     },
     {
         id: 3, 
         img: testimonial_img_3, 
-        name: "Rudra Ghosh",
-        job_title: "Founder & CEO Dulalix",
-        description: <>“Softuch helps me keep a clean,
-        organized ledger that I can access
-        anywhere. The UI is so intuitive that
-        anyone can use it,</>,
+        name: "Elisabetta",
+        job_title: "My Life - Bologna",
+        description: <>“Con la sceheda cliente salvo le preferenze di ogni cliente e le ultime attività eseguite,</>,
 
     },
     {
         id: 4, 
         img: testimonial_img_4, 
-        name: "Rudra Ghosh",
-        job_title: "Founder & CEO Dulalix",
-        description: <>We get absolutely raving reviews 
-        from our sales and customer support 
-        teams using close. Even our co-
-        founders are very happy.</>,
+        name: "Sandra",
+        job_title: "Sandra Estetica",
+        description: <>Posso prendere appuntamenti da qualisiasi luogo ed aveli sempre sincronizzati sulla piattaforma.</>,
 
     },
 ]
