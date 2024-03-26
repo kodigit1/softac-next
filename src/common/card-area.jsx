@@ -50,8 +50,8 @@ const card_content = {
         },
     ],
 
-    title: <>La Tua Agenda  <span>sempre sotto controllo</span> sa tutti i dispositivi</>,
-    description: <>Tieni sotto controllo la Agenda appuntamenti della tua attività anche in tua assenza <br />
+    title: <>La Tua Agenda  <span>sempre sotto controllo</span> con tutti i dispositivi</>,
+    description: <>Tieni sotto controllo l'Agenda appuntamenti della tua attività, <br />
     potrai controllare le prenotazioni da qualsiasi luogo e da tutti i dispositivi : PC, Tablet e Smartphone</>,
     btn_text: "Richiedi una quotazione"
 }
