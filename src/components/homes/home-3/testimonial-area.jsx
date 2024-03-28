@@ -4,13 +4,13 @@ import Slider from 'react-slick';
 import testimonial_img_1 from "../../../../public/assets/img/testimonial/estetista1.png"
 import testimonial_img_2 from "../../../../public/assets/img/testimonial/estetista2.png"
 import testimonial_img_3 from "../../../../public/assets/img/testimonial/estetista3.png"
-import testimonial_img_4 from "../../../../public/assets/img/testimonial/testi-3-5.png"
+import testimonial_img_4 from "../../../../public/assets/img/testimonial/estetista4.png"
 import Image from 'next/image';
 
 
 const testimonial_content  = {
     bg_img: "/assets/img/testimonial/testi-bg-3-1.png",
-    title: <><span>Kind Words</span><br />from our Customers</>
+    title: <><span>La testimonianza dei</span><br />Nostri clienti</>
 }
 const {bg_img , title}  = testimonial_content
 
