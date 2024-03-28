@@ -64,7 +64,7 @@ const portfolio_data = [
         title: <>Promzioni e Coupon</>,
         des: <>Genera facilmente Promozioni da condividere.</>,
         delay: ".5s",
-        category: "Development",
+        category: "Marketing",
         filter_id: ["all", "Agenda", "Marketing", "Pagamenti", ],
     }, 
     {
@@ -75,7 +75,7 @@ const portfolio_data = [
         title: <>Pagamenti</>,
         des: <>Ricevi Pagamenti Online per caparre o pacchetti promo.</>,
         delay: ".5s",
-        category: "Illusutration",
+        category: "Pagamenti",
         filter_id: ["all", "Agenda", "Marketing", "Pagamenti",  ],
     }, 
     {
