@@ -3,7 +3,7 @@ import Slider from 'react-slick';
 
 import testimonial_img_1 from "../../../../public/assets/img/testimonial/estetista1.png"
 import testimonial_img_2 from "../../../../public/assets/img/testimonial/estetista2.png"
-import testimonial_img_3 from "../../../../public/assets/img/testimonial/testi-3-4.png"
+import testimonial_img_3 from "../../../../public/assets/img/testimonial/estetista3.png"
 import testimonial_img_4 from "../../../../public/assets/img/testimonial/testi-3-5.png"
 import Image from 'next/image';
 
