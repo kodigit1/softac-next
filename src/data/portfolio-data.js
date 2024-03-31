@@ -9,7 +9,7 @@ import thumb_img_5 from "../../public/assets/img/project/pagamenti350x324.jpg";
 import thumb_img_6 from "../../public/assets/img/project/newsletter35x324.jpg";
 import thumb_img_7 from "../../public/assets/img/project/webdesign350x324.jpg";
 import thumb_img_8 from "../../public/assets/img/project/social-350x324.jpg";
-import thumb_img_9 from "../../public/assets/img/project/project-inner-9.jpg";
+import thumb_img_9 from "../../public/assets/img/project/google-350x324.jpg";
 // brand logo import here
 import brand_logo_1 from "../../public/assets/img/project/project-inner-brand-1.png";
 import brand_logo_2 from "../../public/assets/img/project/project-inner-brand-2.png";
