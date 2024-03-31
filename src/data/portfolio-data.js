@@ -3,7 +3,7 @@
 // thumb img import here 
 import thumb_img_1 from "../../public/assets/img/project/appuntameni350x324.jpg";
 import thumb_img_2 from "../../public/assets/img/project/project-inner-2.jpg";
-import thumb_img_3 from "../../public/assets/img/project/project-inner-3.jpg";
+import thumb_img_3 from "../../public/assets/img/project/fidelitycard350x324.jpg";
 import thumb_img_4 from "../../public/assets/img/project/project-inner-5.jpg";
 import thumb_img_5 from "../../public/assets/img/project/project-inner-4.jpg";
 import thumb_img_6 from "../../public/assets/img/project/project-inner-6.jpg";
