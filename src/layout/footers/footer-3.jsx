@@ -13,18 +13,18 @@ import footer_logo from  "../../../public/assets/img/logo/logo-black.png";
 
 const footer_content = {
     bg_img: "/assets/img/footer/overly.png",
-    title: <>Get Early Access to Softuch. <br /> <span>Close Your Books Faster and Grow.</span></>,
+    title: <>Vuoi migliorare la gestione  <br /> <span>del tuo Salone o Centro Estetico ?.</span></>,
     btn_text: "Try it on Browser",
-    phone: "+806(000)8899",
-    email: "contact@info.com",
-    description: <>Build a modern and creative website with crealand</>,
+    phone: "+39 3406505294",
+    email: "info@kodigit.agency",
+    description: <>Vuoi migliorare la gestione del tuo Salone o Centro Estetico?</>,
 
     footer_lisks : [
         {
             id: 1,
             cls_1: "col-xl-3 col-lg-3",
             cls_2: "footer-col-3-2",
-            title: "Navigation",
+            title: "Funzionalità",
             delay: ".7s",
             links: [
                 {name: "Damo page", link: "#"},
@@ -39,7 +39,7 @@ const footer_content = {
             id: 2,
             cls_1: "col-xl-2 col-lg-2",
             cls_2: "footer-col-3-3",
-            title: "Other Pages",
+            title: "Info",
             delay: ".9s",
             links: [
                 {name: "Features", link: "#"},
