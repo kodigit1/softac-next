@@ -14,7 +14,7 @@ const Project = () => {
         <Portfolio />
         <CtaArea />
       </main>
-      <FooterFive style_contact={true}  style_team={true} />
+      <FooterThree style_contact={true}  style_team={true} />
     </>
   );
 };
