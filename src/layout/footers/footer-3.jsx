@@ -13,7 +13,7 @@ import footer_logo from  "../../../public/assets/img/logo/logo-black.png";
 
 const footer_content = {
     bg_img: "/assets/img/footer/overly.png",
-    title: <>Get Early Access to Softuch. <br /> <span>Close Your Books Faster and Grow.</span></>,
+    title: <>Vuoi migliorare la gestione  <br /> <span>del tuo Salone o Centro Estetico ?.</span></>,
     btn_text: "Try it on Browser",
     phone: "+806(000)8899",
     email: "contact@info.com",
