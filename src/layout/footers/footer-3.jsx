@@ -17,7 +17,7 @@ const footer_content = {
     btn_text: "Try it on Browser",
     phone: "+806(000)8899",
     email: "contact@info.com",
-    description: <>a modern and creative website with crealand</>,
+    description: <>Vuoi migliorare la gestione del tuo Salone o Centro Estetico?</>,
 
     footer_lisks : [
         {
