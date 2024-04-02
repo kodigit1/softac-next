@@ -21,7 +21,7 @@ const footer_content  = {
     contact_mail: "sales@kodigit.agency",
     location: "Honved utca 8.1, 1054 Budapest",
 
-    copy_right: <>Full Copyright & Design By <Link href="#">@Theme pure</Link> – {new Date().getFullYear()}</>,
+    copy_right: <>All Right Reserved<Link href="https://kodigit.agency/it/home-it/">Kodigit</Link> – {new Date().getFullYear()}</>,
 
     footer_lisks : [
         {
