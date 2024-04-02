@@ -27,8 +27,8 @@ const footer_content = {
             title: "Funzionalità",
             delay: ".7s",
             links: [
-                {name: "Damo page", link: "#"},
-                {name: "About", link: "/about"},
+                {name: "Funzionalità", link: "/project"},
+                {name: "Contatti", link: "/contact"},
                 {name: "Pricing Plan", link: "/price"},
                 {name: "Integrations", link: "/integrations"},
                 {name: "Blog", link: "/blog"},
@@ -42,8 +42,8 @@ const footer_content = {
             title: "Info",
             delay: ".9s",
             links: [
-                {name: "Features", link: "#"},
-                {name: "Team", link: "/team"},
+                {name: "Privacy Policy", link: "#"},
+                {name: "Cookie Policy", link: "#"},
                 {name: "Careers", link: "#"},
                 {name: "Login", link: "/login"},
                 {name: "Register", link: "/register"},
@@ -59,16 +59,7 @@ const footer_content = {
           target: "_blank",
           icon: "fab fa-facebook-f", 
         },
-        {
-          link: "http://twitter.com",
-          target: "_blank",
-          icon: "fab fa-twitter", 
-        },
-        {
-          link: "http://www.vimeo.com",
-          target: "_blank",
-          icon: "fab fa-vimeo-v", 
-        }, 
+         
         {
           link: "http://www.instagram.com",
           target: "_blank",
