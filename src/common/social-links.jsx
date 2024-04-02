@@ -49,7 +49,7 @@ export default SocialLinks;
 
 
 const copy_right_text = {
-  copy_right: <>Full Copyright & Design By <Link href="#">@Theme pure</Link> – {new Date().getFullYear()}</>,
+  copy_right: <>All Right Reserved <Link href="https://kodigit.agency/it/home-it/">Kodigit</Link> – {new Date().getFullYear()}</>,
 }
 const {copy_right}  = copy_right_text
 
