@@ -17,7 +17,7 @@ const footer_content = {
     btn_text: "Try it on Browser",
     phone: "+806(000)8899",
     email: "contact@info.com",
-    description: <>Build a modern and creative website with crealand</>,
+    description: <>a modern and creative website with crealand</>,
 
     footer_lisks : [
         {
