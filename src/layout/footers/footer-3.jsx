@@ -14,7 +14,7 @@ import footer_logo from  "../../../public/assets/img/logo/logo-black.png";
 const footer_content = {
     bg_img: "/assets/img/footer/overly.png",
     title: <>Vuoi migliorare la gestione  <br /> <span>del tuo Salone o Centro Estetico ?.</span></>,
-    btn_text: "Try it on Browser",
+    btn_text: "Contattaci Ora!",
     phone: "+39 3406505294",
     email: "info@kodigit.agency",
     description: <>Vuoi migliorare la gestione del tuo Salone o Centro Estetico?</>,
@@ -81,17 +81,17 @@ const {bg_img, title, btn_text, footer_lisks, social_links, phone , email, descr
 
 // footer slider data 
 const footer_slider_data = [
-    "Free trial",
-    "Lightning-fast onboarding.",
-    "All-in-one CRM",
-    "Cards for your whole team.",
-    "Free trial",
-    "Free migrations",
-    "Incredible support",
-    "Lightning-fast onboarding.",
-    "Cards for your whole team.",
-    "Free trial",
-    "Free migrations", 
+    "Appuntamenti Ricorrenti",
+    "Pacchetti Promozionali",
+    "Fidelity Card online",
+    "Creazione Coupon Sconto",
+    "Pagamenti Online",
+    "Newsletter",
+    "Sito Web Responsive",
+    "Campagne Social Media",
+    "Campagne Pubblicitarie Google",
+    "Fidelty Cards",
+    "Notifiche SMS-Whatsapp", 
 ]
 // slider setting
 const setting = {
