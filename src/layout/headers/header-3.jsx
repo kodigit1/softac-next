@@ -6,7 +6,7 @@ import NavMenu from './nav-menu';
 import Image from 'next/image';
 
 
-import logo from "../../../public/assets/img/logo/logo-black.png"
+import logo from "../../../public/assets/img/logo/KODIGIT2022-BLACK-1.png"
 
 const HeaderThree = () => {
 
