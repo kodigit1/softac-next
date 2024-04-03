@@ -6,7 +6,7 @@ import NavMenu from './nav-menu';
 import Image from 'next/image';
 
 
-import logo from "../../../public/assets/img/logo/logo-black.png"
+import logo from "../../../public/assets/img/logo/KODIGIT2022-BLACK-1.png"
 
 const HeaderThree = () => {
 
@@ -39,8 +39,8 @@ const HeaderThree = () => {
                               </Link>
                            </div>
                            <div className="header-bottom__btn d-flex align-items-center">
-                              <Link className="tp-btn-blue-sm d-none d-md-inline-block tp-btn-hover alt-color-black" href="/service-details">
-                                 <span>Get Free</span>
+                              <Link className="tp-btn-blue-sm d-none d-md-inline-block tp-btn-hover alt-color-black" href="/contact">
+                                 <span>Contatti</span>
                                  <b></b>
                               </Link>
                               <a className="header-bottom__bar tp-menu-bar d-lg-none" onClick={()  => setSidebarOpen(true)}><i className="fal fa-bars"></i></a>
