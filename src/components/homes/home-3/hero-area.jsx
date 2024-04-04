@@ -16,8 +16,8 @@ const hero_content = {
    title_1: <>Beauty<span>Service</span></>,
    title_2: "Per Centri Estetici e Hair Stylist.",
    info: <>Gestione appuntamenti con notifica al cliente vie email-sms. <br /> Gestione Pacchetti Promozionali e appuntamenti ricorrenti.</>,
-   btn_1: "Live Damo",
-   btn_2: "Try it on Browser",
+   btn_1: "Funzionalità",
+   btn_2: "Contatti",
    
 }
 const { title_1, title_2, info, btn_1, btn_2 } = hero_content
@@ -51,11 +51,11 @@ const HeroArea = () => {
                         <p className="tp-char-animation-2 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".7s">{info}</p>
                      </div>
                      <div className="tp-hero-btn-3 text-center wow tpfadeUp" data-wow-duration="1s" data-wow-delay=".9s">
-                        <Link className="tp-btn-blue-lg tp-btn-hover alt-color-black" href="#">
+                        <Link className="tp-btn-blue-lg tp-btn-hover alt-color-black" href="/project">
                            <span>{btn_1}</span>
                            <b></b>
                         </Link>
-                        <Link className="tp-btn-border tp-btn-hover alt-color-black" href="#">
+                        <Link className="tp-btn-border tp-btn-hover alt-color-black" href="/contact">
                            <span>{btn_2}</span>
                            <b></b>
                         </Link>

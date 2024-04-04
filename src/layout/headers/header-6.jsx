@@ -7,8 +7,8 @@ import React, { useState } from 'react';
 import NavMenu from './nav-menu';
 
 
-import logo_black from "../../../public/assets/img/logo/logo-black.png";
-import logo_white from "../../../public/assets/img/logo/logo-white.png";
+import logo_black from "../../../public/assets/img/logo/KODIGIT2022-BLACK-1.png";
+import logo_white from "../../../public/assets/img/logo/LOGO-white.png";
 
 
 const HeaderSix = ({ style_2 = false }) => {
