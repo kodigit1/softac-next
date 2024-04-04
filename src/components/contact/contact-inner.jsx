@@ -28,7 +28,7 @@ const inner_content = {
     {
       id: 3,
       icon: icon_3,
-      title: "35Park Avenue, Uk",
+      title: "Via D'azeglio, Bologna",
       link: "https://www.google.com.bd/maps/@44.39741,12.04017",
     },
   ],
