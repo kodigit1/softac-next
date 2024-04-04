@@ -6,7 +6,7 @@ import TestimonialArea from "../home-3/testimonial-area";
 import CardArea from "../../../common/card-area";
 import CounterArea from "./counter-area";
 import HeroArea from "./hero-area";
-import IntegrationArea from "./integration-area";
+
 import RatedArea from "./rated-area";
 import SalesArea from "../../../common/sales-area";
 import ServiceArea from "./service-area";
@@ -22,7 +22,7 @@ const HomeThree = () => {
       <CardArea />
       <SalesArea />
       <TestimonialArea />
-      <IntegrationArea />
+      
     
       <FooterThree />
     </>

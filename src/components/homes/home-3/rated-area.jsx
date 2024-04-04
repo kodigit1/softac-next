@@ -15,17 +15,17 @@ const rated_content ={
         author : [
         {
             id: 1,
-            title: <>"the interface is excellent"</>,
+            title: <>"seplice da utilizzare"</>,
             img: author_img_1,
         },
         {
             id: 2,
-            title: <>"improvements in every release"</>,
+            title: <>"tantissime funzionalità"</>,
             img: author_img_2,
         },
         {
             id: 3,
-            title: <>"improvements in every release"</>,
+            title: <>"appuntamenti sotto controllo"</>,
             img: author_img_3,
         },
         ],
@@ -33,7 +33,7 @@ const rated_content ={
         bg_img: "/assets/img/rate/rated-bg.jpg",
         
 
-        title: <>Customers have <span>Consistently</span><br /> <span>Rated</span> Softec<span> 4.9/5</span></>,
+        title: <>Semplifica <span>la Gestione</span><br /> <span>del</span> tuo<span> Salone o Centro Estetico</span></>,
 }
 
 const {author, bg_img, title}  = rated_content
@@ -63,8 +63,8 @@ const RatedArea = () => {
                               <h5 className="tp-section-title-3 text-white pb-40">
                                 {title}
                               </h5>
-                              <Link className="tp-btn-blue-lg tp-btn-hover alt-color-white" href="#">
-                                 <span className="text-color-black">Try it on Browser</span>
+                              <Link className="tp-btn-blue-lg tp-btn-hover alt-color-white" href="/project">
+                                 <span className="text-color-black">Vedi tutte le Funzionalità</span>
                                  <b></b>
                               </Link>
                            </div>
