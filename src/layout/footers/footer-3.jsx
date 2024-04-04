@@ -44,10 +44,10 @@ const footer_content = {
             links: [
                 {name: "Privacy Policy", link: "#"},
                 {name: "Cookie Policy", link: "#"},
-                {name: "Careers", link: "#"},
-                {name: "Login", link: "/login"},
-                {name: "Register", link: "/register"},
-                {name: "404 Not found", link: "/error"},
+                {name: "", link: "#"},
+                {name: "", link: "#"},
+                {name: "", link: "#"},
+                {name: "", link: "#"},
             ]
         },
 
