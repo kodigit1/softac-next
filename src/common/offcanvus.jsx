@@ -28,7 +28,7 @@ const Offcanvus = ({sidebarOpen, setSidebarOpen}) => {
                     </div>
                     <div className="tpoffcanvas__instagram text-center">
                     <div className="tpoffcanvas__instagram-title">
-                        <h4>instagram</h4>
+                        <h4>Beauty Service </h4>
                     </div>  
                     <Link href="#"><Image src={canvus_img_1}  alt="theme-pure" /></Link>
                     <Link href="#"><Image src={canvus_img_2}  alt="theme-pure" /></Link>
@@ -36,10 +36,10 @@ const Offcanvus = ({sidebarOpen, setSidebarOpen}) => {
                     <Link href="#"><Image src={canvus_img_4}  alt="theme-pure" /></Link>
                     </div>
                     <div className="tpoffcanvas__info text-center">
-                    <h4 className="offcanva-title">we are here</h4>
+                    <h4 className="offcanva-title">Agenda Elettronica</h4>
                     <Link href="https://www.google.com/maps/@23.506657,90.3443647,7z" target="_blank">
-                        27 Division St, New York, <br />
-                        NY 10002, USA
+                        per Centri Estetici e, <br />
+                        HairStylist
                     </Link>
                     </div>
                     <div className="tpoffcanvas__social">
