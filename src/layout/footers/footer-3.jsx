@@ -9,7 +9,7 @@ import Link from 'next/link';
 import React from 'react';
 import Slider from 'react-slick';
 
-import footer_logo from  "../../../public/assets/img/logo/logo-black.png";
+import footer_logo from  "../../../public/assets/img/logo/KODIGIT2022-BLACK-1.png";
 
 const footer_content = {
     bg_img: "/assets/img/footer/overly.png",
@@ -29,10 +29,10 @@ const footer_content = {
             links: [
                 {name: "Funzionalità", link: "/project"},
                 {name: "Contatti", link: "/contact"},
-                {name: "Pricing Plan", link: "/price"},
-                {name: "Integrations", link: "/integrations"},
-                {name: "Blog", link: "/blog"},
-                {name: "Contact", link: "/contact"},
+                {name: "", link: "#"},
+                {name: "", link: "#"},
+                {name: "", link: "#"},
+                {name: "", link: "#"},
             ]
         },
         {
@@ -44,10 +44,10 @@ const footer_content = {
             links: [
                 {name: "Privacy Policy", link: "#"},
                 {name: "Cookie Policy", link: "#"},
-                {name: "Careers", link: "#"},
-                {name: "Login", link: "/login"},
-                {name: "Register", link: "/register"},
-                {name: "404 Not found", link: "/error"},
+                {name: "", link: "#"},
+                {name: "", link: "#"},
+                {name: "", link: "#"},
+                {name: "", link: "#"},
             ]
         },
 
