@@ -7,9 +7,9 @@ import sales_img_2 from "../../public/assets/img/card/sale-2.png"
 import sales_img_3 from "../../public/assets/img/card/sale-3.png"
 
 const sales_content = {
-    title: <>Analisi e Report <span>Analyze Sales</span> dei servizi</>,
+    title: <>Analisi e <span>Report</span> dei servizi effettuati</>,
     dub_title: <>Verifica in tempo reale la produttività</>,
-    description: <>Ottieni report dettagliata per servizio, categoria o dipendente <br />analizza professionalmente il tuo lavoro!</>,
+    description: <>Ottieni reports dettagliati per servizio, categoria o dipendente, <br />analizza professionalmente il tuo lavoro!</>,
 
     sales_feature: [
         {
