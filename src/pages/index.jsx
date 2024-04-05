@@ -6,7 +6,7 @@ import Wrapper from "../layout/wrapper";
 const Home = () => {
   return (
     <Wrapper>
-      <SEO pageTitle={"Softec - Payment Gateway"} />
+      <SEO pageTitle={"Beauty Kodigit gestione appuntamenti per centri estetici e parrucchieri"} />
       <HomeThree />
     </Wrapper>
   );
