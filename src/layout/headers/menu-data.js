@@ -2,7 +2,7 @@ const menu_data = [
   {
     id: 1,
     mega_menu: false,
-    has_dropdown: true,
+    has_dropdown: false,
     title: "Home",
     link: "/",
     active: "active",
