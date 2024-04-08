@@ -16,7 +16,7 @@ const rated_content ={
         {
             id: 1,
             title: <>"semplice da utilizzare"</>,
-            
+            img: author_img_1,
         },
         {
             id: 2,
