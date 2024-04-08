@@ -16,7 +16,7 @@ const rated_content ={
         {
             id: 1,
             title: <>"semplice da utilizzare"</>,
-            img: author_img_1,
+            
         },
         {
             id: 2,
@@ -84,7 +84,7 @@ const RatedArea = () => {
                                         </div>
                                         <p>{item.title}</p>
                                         <div className="author-rated-logo">
-                                            <Image src={item.img} alt="author logo"/>
+                                            <Image src={item.img} alt=""/>
                                         </div>
                                     </div>
                                 </div>
