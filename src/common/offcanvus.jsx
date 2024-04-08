@@ -4,7 +4,7 @@ import Image from 'next/image';
 import MobileMenus from '../layout/headers/mobile-menus';
  
 // images import 
-import logo from "../../public/assets/img/logo/logo-white.png"
+import logo from "../../public/assets/img/logo/LOGO-white.png"
 import canvus_img_1 from "../../public/assets/img/project/project-inner-4.jpg"
 import canvus_img_2 from "../../public/assets/img/project/project-inner-5.jpg";
 import canvus_img_3 from "../../public/assets/img/project/project-inner-6.jpg";
@@ -38,16 +38,16 @@ const Offcanvus = ({sidebarOpen, setSidebarOpen}) => {
                     <div className="tpoffcanvas__info text-center">
                     <h4 className="offcanva-title">Agenda Elettronica</h4>
                     <Link href="https://www.google.com/maps/@23.506657,90.3443647,7z" target="_blank">
-                        per Centri Estetici e, <br />
+                        per Centri Estetici e <br />
                         HairStylist
                     </Link>
                     </div>
                     <div className="tpoffcanvas__social">
                     <div className="social-icon text-center">
-                        <Link href="#"><i className="fab fa-twitter"></i></Link>
-                        <Link href="#"><i className="fab fa-instagram"></i></Link>
-                        <Link href="#"><i className="fab fa-facebook-square"></i></Link>
-                        <Link href="#"><i className="fab fa-dribbble"></i></Link>
+                        
+                        <Link href="https://www.instagram.com/kodigit_beauty/"><i className="fab fa-instagram"></i></Link>
+                        <Link href="https://www.facebook.com/KodigitBeauty/"><i className="fab fa-facebook-square"></i></Link>
+                        
                     </div>
                     </div>
                 </div>
