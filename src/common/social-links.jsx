@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const social_links = [
   {
-    link: "http://facebook.com",
+    link: "https://www.facebook.com/KodigitBeauty/",
     target: "_blank",
     icon: "fab fa-facebook-f", 
   },
@@ -67,7 +67,7 @@ export const CopyRight = ()  => {
 // home 04 social link
 const social_links_two = [
   {
-    link: "http://facebook.com",
+    link: "https://www.facebook.com/KodigitBeauty/",
     target: "_blank",
     icon: "fab fa-facebook-f",
     color: "1", 
