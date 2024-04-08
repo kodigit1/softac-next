@@ -15,18 +15,18 @@ const rated_content ={
         author : [
         {
             id: 1,
-            title: <>"seplice da utilizzare"</>,
-            img: author_img_1,
+            title: <>"semplice da utilizzare"</>,
+            
         },
         {
             id: 2,
             title: <>"tantissime funzionalità"</>,
-            img: author_img_2,
+            
         },
         {
             id: 3,
             title: <>"appuntamenti sotto controllo"</>,
-            img: author_img_3,
+            
         },
         ],
         
@@ -84,7 +84,7 @@ const RatedArea = () => {
                                         </div>
                                         <p>{item.title}</p>
                                         <div className="author-rated-logo">
-                                            <Image src={item.img} alt="author logo"/>
+                                            <Image src={item.img} alt=""/>
                                         </div>
                                     </div>
                                 </div>
