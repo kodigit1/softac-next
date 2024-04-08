@@ -61,7 +61,7 @@ const footer_content = {
         },
          
         {
-          link: "http://www.instagram.com/kodigit-beauty",
+          link: "http://www.instagram.com/kodigit_beauty",
           target: "_blank",
           icon: "fab fa-instagram", 
         },
