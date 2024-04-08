@@ -55,13 +55,13 @@ const footer_content = {
 
     social_links : [
         {
-          link: "http://facebook.com",
+          link: "https://www.facebook.com/KodigitBeauty/",
           target: "_blank",
           icon: "fab fa-facebook-f", 
         },
          
         {
-          link: "http://www.instagram.com",
+          link: "http://www.instagram.com/kodigit-beauty",
           target: "_blank",
           icon: "fab fa-instagram", 
         },
