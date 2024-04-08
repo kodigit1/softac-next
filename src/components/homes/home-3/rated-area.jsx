@@ -21,12 +21,12 @@ const rated_content ={
         {
             id: 2,
             title: <>"tantissime funzionalità"</>,
-            img: author_img_2,
+            
         },
         {
             id: 3,
             title: <>"appuntamenti sotto controllo"</>,
-            img: author_img_3,
+            
         },
         ],
         
