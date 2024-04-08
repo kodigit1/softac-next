@@ -10,7 +10,7 @@ import Image from 'next/image';
 
 const testimonial_content  = {
     bg_img: "/assets/img/testimonial/testi-bg-3-1.png",
-    title: <><span>La testimonianza dei</span><br />Nostri clienti</>
+    title: <><span>Le testimonianze dei</span><br />Nostri clienti</>
 }
 const {bg_img , title}  = testimonial_content
 
@@ -66,7 +66,7 @@ const testimonial_data = [
         img: testimonial_img_2, 
         name: "Daniela",
         job_title: "Vivensia - Ferrara",
-        description: <>I miei clienti possono richiedere l'appuntamento online e subito mi arriva una notifica .</>,
+        description: <>I  clienti confermano l'appuntamento online e subito mi arriva una notifica email .</>,
 
     },
     {
@@ -74,7 +74,7 @@ const testimonial_data = [
         img: testimonial_img_3, 
         name: "Elisabetta",
         job_title: "My Life - Bologna",
-        description: <>“Con la sceheda cliente salvo le preferenze di ogni cliente e le ultime attività eseguite,</>,
+        description: <>“Con la scheda cliente salvo le preferenze di ogni cliente e le ultime attività eseguite,</>,
 
     },
     {
@@ -82,7 +82,7 @@ const testimonial_data = [
         img: testimonial_img_4, 
         name: "Sandra",
         job_title: "Sandra Estetica",
-        description: <>Posso prendere appuntamenti da qualisiasi luogo ed aveli sempre sincronizzati sulla piattaforma.</>,
+        description: <>Posso prendere appuntamenti da qualisiasi luogo e sono sempre sincronizzati sulla piattaforma.</>,
 
     },
 ]
