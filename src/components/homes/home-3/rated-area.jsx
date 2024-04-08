@@ -15,7 +15,7 @@ const rated_content ={
         author : [
         {
             id: 1,
-            title: <>"seplice da utilizzare"</>,
+            title: <>"semplice da utilizzare"</>,
             img: author_img_1,
         },
         {
