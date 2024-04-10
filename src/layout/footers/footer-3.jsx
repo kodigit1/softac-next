@@ -230,7 +230,7 @@ const FooterThree = () => {
                                 <h4 className="tp-footer__widget-title"></h4>
                                 
                                 <div className="tp-footer__social-3">
-                                    <h4>Social media</h4>
+                                    <h4>Social Media</h4>
                                     {social_links.map((l, i) => (
                                         <Link
                                         key={i}
