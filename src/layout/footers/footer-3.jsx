@@ -227,18 +227,8 @@ const FooterThree = () => {
 
                         <div className="col-xl-4 col-lg-4 col-md-6 pb-30 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".9s">
                             <div className="tp-footer__widget footer-widget-3 footer-col-3-4">
-                                <h4 className="tp-footer__widget-title">Our Newsletter</h4>
-                                <div className="tp-footer__input mb-35 p-relative">
-                                    <form  onSubmit={(e) => e.preventDefault()}>
-                                    <input type="text" placeholder="Business email adress" />
-                                    <span>
-                                        <EmailIcon /> 
-                                    </span>
-                                    <button>
-                                        <RightArrow />  
-                                    </button>
-                                    </form>
-                                </div>
+                                <h4 className="tp-footer__widget-title"></h4>
+                                
                                 <div className="tp-footer__social-3">
                                     <h4>Social media</h4>
                                     {social_links.map((l, i) => (
