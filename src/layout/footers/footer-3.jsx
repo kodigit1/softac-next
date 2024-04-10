@@ -42,8 +42,8 @@ const footer_content = {
             title: "Info",
             delay: ".9s",
             links: [
-                {name: "Privacy Policy", link: "#"},
-                {name: "Cookie Policy", link: "#"},
+                {name: "Privacy Policy", link: "https://www.iubenda.com/privacy-policy/22159542"},
+                {name: "Cookie Policy", link: "https://www.iubenda.com/privacy-policy/22159542"},
                 {name: "", link: "#"},
                 {name: "", link: "#"},
                 {name: "", link: "#"},
