@@ -6,6 +6,7 @@ gsap.registerPlugin(ScrollTrigger);
 // internal
 import ScrollToTop from "../hooks/scroll-to-top";
 import { animationCreate } from "../utils/utils";
+import GdprBanner from "../components/gdpr-banner";
 
 const Wrapper = ({ children }) => {
   useEffect(() => {
@@ -19,6 +20,7 @@ const Wrapper = ({ children }) => {
     <>
       {children}
       <ScrollToTop/>
+      <GdprBanner/>
     </>
   );
 };
