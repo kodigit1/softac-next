@@ -1,5 +1,6 @@
 import Script from "next/script";
 import { useEffect } from "react";
+import { useRouter } from "next/router";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
@@ -10,10 +11,28 @@ import GdprBanner from "../components/gdpr-banner";
 
 gsap.registerPlugin(ScrollTrigger);
 
+const META_PIXEL_ID = "1269168935100575";
+
 const Wrapper = ({ children }) => {
+  const router = useRouter();
+
   useEffect(() => {
     animationCreate();
   }, []);
+
+  useEffect(() => {
+    const handleRouteChange = () => {
+      if (window.fbq) {
+        window.fbq("track", "PageView");
+      }
+    };
+
+    router.events.on("routeChangeComplete", handleRouteChange);
+
+    return () => {
+      router.events.off("routeChangeComplete", handleRouteChange);
+    };
+  }, [router.events]);
 
   return (
     <>
@@ -27,24 +46,24 @@ const Wrapper = ({ children }) => {
           t.src=v;s=b.getElementsByTagName(e)[0];
           s.parentNode.insertBefore(t,s)}(window, document,'script',
           'https://connect.facebook.net/en_US/fbevents.js');
-          fbq('init', '990399433529725');
+          fbq('init', '${META_PIXEL_ID}');
           fbq('track', 'PageView');
         `}
       </Script>
+
+      <ScrollToTop />
+      {children}
+      <GdprBanner />
 
       <noscript>
         <img
           height="1"
           width="1"
           style={{ display: "none" }}
-          src="https://www.facebook.com/tr?id=990399433529725&ev=PageView&noscript=1"
+          src={`https://www.facebook.com/tr?id=${META_PIXEL_ID}&ev=PageView&noscript=1`}
           alt=""
         />
       </noscript>
-
-      {children}
-      <ScrollToTop />
-      <GdprBanner />
     </>
   );
 };
