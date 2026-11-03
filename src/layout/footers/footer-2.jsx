@@ -5,7 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React,{useState} from 'react';
 // img import 
-import footer_logo from "../../../public/assets/img/logo/logo-black.png";
+import footer_logo from "../../../public/assets/img/logo/KODIGIT2022-BLACK-1.png";
 import qr_code from "../../../public/assets/img/footer/dwnld-1.png";
 import i_phone from "../../../public/assets/img/footer/dwnld-2.png";
 import google_ply from "../../../public/assets/img/footer/dwnld-3.png"; 

@@ -9,7 +9,7 @@ import Image from 'next/image';
 import React from 'react';
 
 import footer_shape from "../../../public/assets/img/footer/footer-bottom-shape-4-1.png";
-import footer_logo from "../../../public/assets/img/logo/logo-white.png";
+import footer_logo from "../../../public/assets/img/logo/LOGO-white.png";
 
 
 const footer_content = {

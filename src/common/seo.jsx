@@ -4,7 +4,7 @@ export const SITE_URL = "https://kodigit-beauty.com";
 export const SITE_NAME = "Kodigit Beauty";
 const DEFAULT_DESCRIPTION =
   "Agenda appuntamenti online per centri estetici e parrucchieri: prenotazioni, promemoria via email e SMS, pacchetti promozionali e appuntamenti ricorrenti.";
-const DEFAULT_IMAGE = "/assets/img/logo/logo-black.png";
+const DEFAULT_IMAGE = "/assets/img/logo/KODIGIT2022-BLACK-1.png";
 
 const SEO = ({
   pageTitle,

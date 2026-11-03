@@ -11,7 +11,7 @@ import useSticky from '@/src/hooks/use-sticky';
 
 
 
-import logo from "../../../public/assets/img/logo/logo-black.png"
+import logo from "../../../public/assets/img/logo/KODIGIT2022-BLACK-1.png"
 
 
 

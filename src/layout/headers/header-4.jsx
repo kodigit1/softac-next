@@ -5,9 +5,9 @@ import React,{useState} from 'react';
 import NavMenu from './nav-menu';
 import Image from 'next/image';
 
-import logo from "../../../public/assets/img/logo/logo-black.png";
-import white_logo from "../../../public/assets/img/logo/logo-white.png";
-import black_logo from "../../../public/assets/img/logo/logo-black.png";
+import logo from "../../../public/assets/img/logo/KODIGIT2022-BLACK-1.png";
+import white_logo from "../../../public/assets/img/logo/LOGO-white.png";
+import black_logo from "../../../public/assets/img/logo/KODIGIT2022-BLACK-1.png";
 
 const HeaderFour = ({style_error}) => {
 

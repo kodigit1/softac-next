@@ -10,7 +10,7 @@ import React from 'react';
 
 import shape_img_1 from "../../../public/assets/img/footer/footer-inner-1.png";
 import shape_img_2 from "../../../public/assets/img/footer/footer-inner-2.png";
-import footer_logo from "../../../public/assets/img/logo/logo-black.png";
+import footer_logo from "../../../public/assets/img/logo/KODIGIT2022-BLACK-1.png";
 
 
 const footer_content = {
