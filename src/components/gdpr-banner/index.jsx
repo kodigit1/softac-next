@@ -1,19 +1,17 @@
 import React, { useState, useEffect } from "react";
-
-const GDPR_STORAGE_KEY = "gdpr_consent";
+import { getConsent, setConsent } from "../../utils/consent";
 
 const GdprBanner = () => {
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
-    const consent = localStorage.getItem(GDPR_STORAGE_KEY);
-    if (!consent) {
+    if (!getConsent()) {
       setVisible(true);
     }
   }, []);
 
-  const handleAccept = () => {
-    localStorage.setItem(GDPR_STORAGE_KEY, "accepted");
+  const handleChoice = (value) => {
+    setConsent(value);
     setVisible(false);
   };
 
@@ -23,8 +21,9 @@ const GdprBanner = () => {
     <div style={styles.overlay}>
       <div style={styles.banner}>
         <p style={styles.text}>
-          Utilizziamo i cookie per migliorare la tua esperienza. Continuando a
-          navigare accetti la nostra{" "}
+          Utilizziamo cookie di analisi (Google Analytics) e di marketing (Meta
+          Pixel) per migliorare la tua esperienza. Puoi accettarli o rifiutarli;
+          maggiori informazioni nella nostra{" "}
           <a
             href="https://www.iubenda.com/privacy-policy/22159542"
             target="_blank"
@@ -44,9 +43,14 @@ const GdprBanner = () => {
           </a>
           .
         </p>
-        <button onClick={handleAccept} style={styles.button}>
-          Accetta
-        </button>
+        <div style={styles.actions}>
+          <button onClick={() => handleChoice("rejected")} style={styles.buttonSecondary}>
+            Rifiuta
+          </button>
+          <button onClick={() => handleChoice("accepted")} style={styles.button}>
+            Accetta
+          </button>
+        </div>
       </div>
     </div>
   );
@@ -75,17 +79,34 @@ const styles = {
     gap: "24px",
     maxWidth: "900px",
     width: "100%",
+    flexWrap: "wrap",
     boxShadow: "0 4px 20px rgba(0,0,0,0.3)",
   },
   text: {
     margin: 0,
     fontSize: "14px",
     lineHeight: "1.6",
-    flex: 1,
+    flex: "1 1 300px",
   },
   link: {
     color: "#4fc3f7",
     textDecoration: "underline",
+  },
+  actions: {
+    display: "flex",
+    gap: "12px",
+    flexShrink: 0,
+  },
+  buttonSecondary: {
+    backgroundColor: "transparent",
+    color: "#ffffff",
+    border: "1px solid #ffffff",
+    borderRadius: "4px",
+    padding: "10px 24px",
+    fontSize: "14px",
+    fontWeight: "600",
+    cursor: "pointer",
+    whiteSpace: "nowrap",
   },
   button: {
     backgroundColor: "#4fc3f7",

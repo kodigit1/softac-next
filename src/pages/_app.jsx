@@ -1,4 +1,5 @@
 import "@/src/styles/index.scss";
+import Analytics from "@/src/components/analytics";
 
 
 if (typeof window !== "undefined") {
@@ -7,5 +8,10 @@ if (typeof window !== "undefined") {
 
 
 export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+  return (
+    <>
+      <Analytics />
+      <Component {...pageProps} />
+    </>
+  );
 }
