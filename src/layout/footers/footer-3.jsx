@@ -2,7 +2,6 @@ import Brwoser from '@/src/common/brwoser';
 import { CopyRight } from '@/src/common/social-links';
 import EmailIcon from '@/src/svg/email';
 import EmailTwo from '@/src/svg/email-2';
-import PhoneTwo from '@/src/svg/phone-2';
 import RightArrow from '@/src/svg/right-arrow';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -15,7 +14,6 @@ const footer_content = {
     bg_img: "/assets/img/footer/overly.png",
     title: <>Vuoi migliorare la gestione  <br /> <span>del tuo Salone o Centro Estetico ?.</span></>,
     btn_text: "Contattaci Ora!",
-    phone: "+39 3406505294",
     email: "info@kodigit.agency",
     description: <>Vuoi migliorare la gestione del tuo Salone o Centro Estetico?</>,
 
@@ -67,7 +65,7 @@ const footer_content = {
         },
       ], 
 }
-const {bg_img, title, btn_text, footer_lisks, social_links, phone , email, description}  = footer_content
+const {bg_img, title, btn_text, footer_lisks, social_links, email, description}  = footer_content
 
 
 // footer slider data 
@@ -194,12 +192,6 @@ const FooterThree = () => {
                                 <div className="tp-footer__contact-info">
                                     <p>{description}</p>
                                     <ul>
-                                    <li>
-                                        <span>
-                                            <PhoneTwo /> 
-                                        </span>
-                                        <Link className="first-child" href={`tel:${phone}`}>{phone}</Link>
-                                    </li>
                                     <li>
                                         <span> 
                                             <EmailTwo /> 
