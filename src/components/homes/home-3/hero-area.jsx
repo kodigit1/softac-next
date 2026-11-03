@@ -3,7 +3,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React, { useEffect, useRef } from 'react';
 import useTitleAnimation from "@/src/hooks/useTitleAnimation";
-import Brwoser from '@/src/common/brwoser';
 import BounceLine from '@/src/svg/bounce-line';
 
 import left_shape from "../../../../public/assets/img/hero/hero-left-shape-3-1.png" ;
@@ -59,9 +58,6 @@ const HeroArea = () => {
                            <span>{btn_2}</span>
                            <b></b>
                         </Link>
-                     </div>
-                     <div className="tp-hero-browser-wrapper d-flex align-items-center justify-content-center wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".9s">
-                        <Brwoser />
                      </div>
                      <div className="tp-hero-3-wrapper p-relative">
                         <div className="tp-hero-3-border-wrap d-none d-md-block">

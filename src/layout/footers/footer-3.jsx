@@ -1,4 +1,3 @@
-import Brwoser from '@/src/common/brwoser';
 import { CopyRight } from '@/src/common/social-links';
 import EmailIcon from '@/src/svg/email';
 import EmailTwo from '@/src/svg/email-2';
@@ -143,13 +142,6 @@ const FooterThree = () => {
                             <span>{btn_text}</span>
                             <b></b>
                         </Link>
-                        </div>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-12">
-                        <div className="tp-hero-browser-wrapper footer-browser-item d-flex align-items-center">
-                            <Brwoser /> 
                         </div>
                     </div>
                 </div>
