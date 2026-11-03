@@ -26,10 +26,6 @@ const footer_content = {
             links: [
                 {name: "Funzionalità", link: "/project"},
                 {name: "Contatti", link: "/contact"},
-                {name: "", link: "#"},
-                {name: "", link: "#"},
-                {name: "", link: "#"},
-                {name: "", link: "#"},
             ]
         },
         {
@@ -41,10 +37,6 @@ const footer_content = {
             links: [
                 {name: "Privacy Policy", link: "https://www.iubenda.com/privacy-policy/22159542"},
                 {name: "Cookie Policy", link: "https://www.iubenda.com/privacy-policy/22159542"},
-                {name: "", link: "#"},
-                {name: "", link: "#"},
-                {name: "", link: "#"},
-                {name: "", link: "#"},
             ]
         },
 
@@ -138,7 +130,7 @@ const FooterThree = () => {
                     </div>
                     <div className="col-xl-3 col-lg-3">
                         <div className="tp-browser-btn text-lg-end text-start mb-40">
-                        <Link className="tp-btn-blue-lg tp-btn-hover" href="#">
+                        <Link className="tp-btn-blue-lg tp-btn-hover" href="/contact">
                             <span>{btn_text}</span>
                             <b></b>
                         </Link>
@@ -178,7 +170,7 @@ const FooterThree = () => {
                             <div className="tp-footer__widget footer-widget-3 footer-col-3-1">
                                 <div className="tp-footer__logo mb-25">
                                     <Link href="/">
-                                    <Image src={footer_logo} alt="" /> 
+                                    <Image src={footer_logo} alt="Kodigit Beauty" /> 
                                     </Link>
                                 </div>
                                 <div className="tp-footer__contact-info">

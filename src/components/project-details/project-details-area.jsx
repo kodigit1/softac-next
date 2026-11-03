@@ -81,10 +81,10 @@ const ProjectDetailsArea = () => {
                            <div className="pd-details-solution">
                               <div className="pd-details-solution-img-box d-flex align-items-center">
                                  <div className="pd-details-solution-img mr-30">
-                                    <Image src={solution_1} alt="theme-pure" />
+                                    <Image src={solution_1} alt="" />
                                  </div>
                                  <div className="pd-details-solution-img">
-                                    <Image src={solution_2} alt="theme-pure" />
+                                    <Image src={solution_2} alt="" />
                                  </div>
                               </div>
                               <div className="row">

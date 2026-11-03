@@ -43,7 +43,7 @@ const RecentPost = () => {
               <div key={i} className="rc__post mb-20 d-flex">
                 <div className="rc__post-thumb mr-20">
                   <Link href="/blog-details">
-                    <Image src={item.img} alt="theme-pure" />
+                    <Image src={item.img} alt="" />
                   </Link>
                 </div>
                 <div className="rc__post-content">

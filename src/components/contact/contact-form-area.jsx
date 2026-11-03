@@ -37,7 +37,7 @@ const ContactFormArea = () => {
                                  <Link href="#"><i className="fab fa-instagram"></i></Link>
                               </div>
                               <div className="contact-form-section-img">
-                                 <Image src={img} alt="theme-pure" />
+                                 <Image src={img} alt="" />
                               </div>
                            </div>
                         </div>

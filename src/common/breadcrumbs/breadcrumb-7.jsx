@@ -15,19 +15,19 @@ const BreadcrumbSeven = () => {
             <div className="breadcrumb__area breadcrumb-height-2 breadcrumb-overlay p-relative fix" 
                style={{backgroundImage: `url(/assets/img/project/project-brdcrmb-bg.jpg)`}}>
                <div className="breadcrumb__shape-2 z-index-4">
-                  <Image src={shape_1} alt="theme-pure" />
+                  <Image src={shape_1} alt="" />
                </div>
                <div className="breadcrumb__shape-3 z-index-4">
-                  <Image src={shape_2} alt="theme-pure" />
+                  <Image src={shape_2} alt="" />
                </div>
                <div className="breadcrumb__shape-4 z-index-4">
-                  <Image src={shape_3} alt="theme-pure" />
+                  <Image src={shape_3} alt="" />
                </div>
                <div className="container">
                   <div className="row justify-content-center">
                      <div className="col-xl-10">
                         <div className="breadcrumb__content z-index-3 text-center">
-                           <h3 ref={animeRef} className="breadcrumb__title tp-char-animation text-black anime_text">Optionals Disponibili</h3>
+                           <h1 ref={animeRef} className="breadcrumb__title tp-char-animation text-black anime_text">Optionals Disponibili</h1>
                            <div className="breadcrumb__text wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".6s">
                               <p>Ottieni più Funzionalità dal tuo sistema di <br /> Gestione Appuntamenti.</p>
                            </div>

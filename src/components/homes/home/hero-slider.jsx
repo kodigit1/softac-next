@@ -100,13 +100,13 @@ const HeroSlider = () => {
                     <div className="tp-hero-bg tp-hero-bg-single" ref={hero_bg} >
                         <Image 
                         // style={{width: "auto", height: "auto"}} 
-                        src={hero_frame} alt="theme-pure" />
+                        src={hero_frame} alt="" />
                     </div>
                     <div className="tp-hero-shape">
                         {hero_shape.map((item, i) =>
                             <Image 
                             // style={{width: "auto", height: "auto"}} 
-                            key={i} className={item.cls} src={item.img} alt="theme-pure" />
+                            key={i} className={item.cls} src={item.img} alt="" />
                         )}
                     </div>
                     <div className="container">
@@ -141,7 +141,7 @@ const HeroSlider = () => {
                                 <div className="tp-hero__thumb-wrapper-main p-relative">
                                     {hero_shape_img.map((item, i) =>
                                         <div key={i} className={`tp-hero__shape-img-${item.cls} d-none d-xl-block`}>
-                                            <Image src={item.img} alt="theme-pure" />
+                                            <Image src={item.img} alt="" />
                                         </div>
                                     )}
                                     <div>
@@ -153,7 +153,7 @@ const HeroSlider = () => {
                                                         <div className="row">
                                                             <div className="col-md-12">
                                                                 <div className="tp-hero__thumb mb-20">
-                                                                    <Image style={{width: "auto", height: "auto"}} className="w-100" src={hero_thumb_1} alt="theme-pure" />
+                                                                    <Image style={{width: "auto", height: "auto"}} className="w-100" src={hero_thumb_1} alt="" />
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -162,7 +162,7 @@ const HeroSlider = () => {
                                                             {hero_thumbs.map((item, i) =>
                                                                 <div key={i} className={`col-md-${item.col}`}>
                                                                     <div className={`tp-hero__thumb ${item.cls}`}>
-                                                                        <Image style={{width: "auto", height: "auto"}} className="w-100" src={item.img} alt="theme-pure" />
+                                                                        <Image style={{width: "auto", height: "auto"}} className="w-100" src={item.img} alt="" />
                                                                     </div>
                                                                 </div>
                                                             )}
@@ -172,7 +172,7 @@ const HeroSlider = () => {
                                                 <div className="col-md-4">
                                                     <div className="tp-hero__thumb-box">
                                                         <div className="tp-hero__thumb">
-                                                            <Image style={{width: "auto", height: "auto"}} className="w-100" src={hero_thumb_2} alt="theme-pure" />
+                                                            <Image style={{width: "auto", height: "auto"}} className="w-100" src={hero_thumb_2} alt="" />
                                                         </div>
                                                     </div>
                                                 </div>

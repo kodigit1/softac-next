@@ -96,7 +96,7 @@ const TestimonialArea = () => {
                                  <div className="tp-testimonial-five-wrapper d-flex justify-content-between align-items-center">
                                     <div className="tp-testimonial-five-top-info d-flex align-items-center">
                                        <div className="tp-testimonial-five-avata">
-                                          <Image src={item.author_img} alt="theme-pure" />
+                                          <Image src={item.author_img} alt="" />
                                        </div>
                                        <div className="tp-testimonial-five-author-info">
                                           <h4>{item.name}</h4>
@@ -104,7 +104,7 @@ const TestimonialArea = () => {
                                        </div>
                                     </div>
                                     <div className="tp-testimonial-five-brand d-none d-sm-block">
-                                       <Image src={item.brand_icon} alt="theme-pure" />
+                                       <Image src={item.brand_icon} alt="" />
                                     </div>
                                  </div>
                                  <div className="tp-testimonial-five-content">

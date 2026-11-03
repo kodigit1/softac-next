@@ -3,8 +3,8 @@ import React from 'react';
 
 const cta_content ={ 
      bg_img: "/assets/img/cta/cta-bg.jpg",
-     title: "Try our service now!",
-     description: <>Prova le incredibili funzionalità del nostro sistema di prenotazione <br /> fino a al 30 Maggio ad un prezzo promozionale.</>,
+     title: "Prova Kodigit Beauty nel tuo centro!",
+     description: <>Prova le incredibili funzionalità del nostro sistema di prenotazione.</>,
      btn_text: "Contattaci ora",
 }
 const {bg_img, title, description, btn_text}  = cta_content

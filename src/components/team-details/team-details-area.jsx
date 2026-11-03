@@ -53,7 +53,7 @@ const TeamDetailsArea = () => {
                               <div className="col-xl-4 col-lg-4 col-md-4">
                                  <div className="team-details-img-box text-center">
                                     <div className="team-details-img">
-                                       <Image src={team_img} alt="theme-pure" />
+                                       <Image src={team_img} alt="" />
                                     </div>
                                     <div className="team-details-work-tag">
                                        <span> 

@@ -13,20 +13,20 @@ import Image from "next/image";
 const index = () => {
   return (
     <>
-    <SEO pageTitle={"Oops.! Page Not Found!"} />
+    <SEO pageTitle={"Pagina non trovata"} noindex />
       <HeaderFour style_error={true} />
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main>
             <div className="tp-error-area tp-error-ptb p-relative">
               <div className="tp-error-left-shape">
-                <Image src={error_shape_1} alt="theme-pure" />
+                <Image src={error_shape_1} alt="" />
               </div>
               <div className="container">
                 <div className="row">
                   <div className="col-xl-12">
                     <div className="tp-error-content-box text-center mb-40">
-                      <Image src={error_shape_2} alt="theme-pure"
+                      <Image src={error_shape_2} alt=""
                       />
                     </div>
                     <div className="tp-error-text-box text-center">

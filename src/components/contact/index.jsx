@@ -15,7 +15,7 @@ const Contact = () => {
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main>
-            <Breadcrumb title_top="Get In" title_bottom="Get In" />
+            <Breadcrumb title_top="Contatti" title_bottom="Kodigit Beauty" />
             <HeroBanner bg_img="/assets/img/contact/receptionist.jpg" />
             
             

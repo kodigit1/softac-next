@@ -144,7 +144,7 @@ const TestimonialArea = () => {
                                           </div>
                                        </div>
                                        <div className="tp-testimonial-3-thumb d-none d-md-block">
-                                          <Image src={item.img} alt="theme-pure" />
+                                          <Image src={item.img} alt="" />
                                        </div>
                                     </div>
                                  </div>

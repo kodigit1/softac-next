@@ -36,10 +36,10 @@ const BreadcrumbEight = () => {
         <>
             <div className="breadcrumb__area breadcrumb-height-3 p-relative blue-bg-2 fix">
                <div className="breadcrumb__shape-1">
-                  <Image src={shape_1} alt="theme-pure" />               
+                  <Image src={shape_1} alt="" />               
                </div>
                <div className="breadcrumb__shape-2">
-                  <Image src={shape_2} alt="theme-pure" />               
+                  <Image src={shape_2} alt="" />               
                </div>
                <div className="container">
                   <div className="breadcrumb__content-wrap">

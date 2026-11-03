@@ -36,7 +36,7 @@ const {dataRef} = useMultipleAnime();
               >
                 <div className="tp-team-item text-center tp-team-inner-title-color z-index">
                   <div className="tp-team-img">
-                    <Image src={item.img} alt="theme-pure" />
+                    <Image src={item.img} alt="" />
                   </div>
                   <div className="tp-team-content">
                     <h4 className="tp-team-title-sm">

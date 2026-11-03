@@ -72,11 +72,11 @@ const PostboxArea = ({style_details_2}) => {
                            </div>
                            <div className="postbox__details-img-box d-flex">
                               <div className="mr-20 text-center">
-                                 <Image className="mb-20" src={blog_details_img_2} alt="theme-pure" />
+                                 <Image className="mb-20" src={blog_details_img_2} alt="" />
                                  <h4 className="postbox__details-img-caption"><span>Images by</span>@sample</h4>
                               </div>
                               <div className="text-center">
-                                 <Image className="mb-20" src={blog_details_img_3} alt="theme-pure" />
+                                 <Image className="mb-20" src={blog_details_img_3} alt="" />
                                  <h5 className="postbox__details-img-caption"><span>Images by</span>@sample</h5>
                               </div>
                            </div>
@@ -108,7 +108,7 @@ const PostboxArea = ({style_details_2}) => {
                            <div className="postbox__navigation-more mb-70 d-flex justify-content-between">
                               <div className="postbox__navigation-left d-flex align-items-center">
                                  <div className="postbox__navigation-img">
-                                    <Link href="#"><Image src={navigation_img_1} alt="theme-pure" /></Link>
+                                    <Link href="#"><Image src={navigation_img_1} alt="" /></Link>
                                  </div>
                                  <div className="postbox__navigation-content">
                                     <Link href="#">
@@ -131,14 +131,14 @@ const PostboxArea = ({style_details_2}) => {
                                     <h5><Link href="#">Typing Tutorials For...</Link></h5>
                                  </div>
                                  <div className="postbox__navigation-img">
-                                    <Link href="#"><Image src={navigation_img_2} alt="theme-pure" /></Link>
+                                    <Link href="#"><Image src={navigation_img_2} alt="" /></Link>
                                  </div>
                               </div>
                            </div>
 
                            <div className="postbox__details-author-info-box mb-100 d-flex align-items-start">
                               <div className="postbox__details-author-avata">
-                                 <Image src={blog_details_avata} alt="theme-pure" />
+                                 <Image src={blog_details_avata} alt="" />
                               </div>
                               <div className="postbox__details-author-content">
                                  <h5 className="postbox__details-author-title">Dianne Ameter</h5>

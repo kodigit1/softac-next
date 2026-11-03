@@ -45,7 +45,7 @@ const FeatureArea = ({style_integraton}) => {
                                 <div className="tp-feature-five-wrapper">
                                     <div className={`tp-feature-five-item tp-feature-five-item-${item.color} text-center z-index`}>
                                         <div className="tp-feature-five-icon p-relative">
-                                            <Image src={item.img} alt="theme-pure" />
+                                            <Image src={item.img} alt="" />
                                             <div className={`tp-feature-five-shape-color tp-feature-five-shape-color-${item.color}`}></div>
                                         </div>
                                         <div className="tp-feature-five-content">

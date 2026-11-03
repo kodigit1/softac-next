@@ -122,7 +122,7 @@ const TestimonialArea = () => {
                             {slider_data.map((item, i)  => 
                                  <div key={i} className="tp-testimonial-2-item p-relative wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".3s">
                                     <div className="tp-testimonial-2-border-shape">
-                                    <Image src={shadow_img} alt="theme-pure" />
+                                    <Image src={shadow_img} alt="" />
                                     </div>
                                     <div className="tp-testimonial-2-star">
                                        <span>
@@ -138,7 +138,7 @@ const TestimonialArea = () => {
                                     </div>
                                     <div className="tp-testimonial-2-author d-flex align-items-center">
                                        <div className="tp-testimonial-2-img">
-                                          <Image src={item.img} alt="theme-pure" />
+                                          <Image src={item.img} alt="" />
                                        </div>
                                        <div className="tp-testimonial-2-author-info">
                                           <h5>{item.name}</h5>

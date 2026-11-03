@@ -22,22 +22,22 @@ const Breadcrumb = ({ title_top, title_bottom }) => {
 
          <div className="about-banner-area p-relative">
             <div className="about-shape-1 z-index-3">
-               <Image src={shape_1} alt="theme-pure" />
+               <Image src={shape_1} alt="" />
             </div>
             <div className="about-shape-2 z-index-3">
-               <Image src={shape_2} alt="theme-pure" />
+               <Image src={shape_2} alt="" />
             </div>
             <div className="about-banner p-relative z-index fix">
                <div className="container">
                   <div className="row">
                      <div className="col-xl-12">
                         <div className="about-banner-content">
-                           <h4 style={{ transform: `translateY(${offset * 0.9}px)` }} 
+                           <h1 style={{ transform: `translateY(${offset * 0.9}px)` }} 
                                  className="about-banner-title" 
                                  data-parallax='{"y": 1000, "smoothness": 10}'>
                               <span>{title_top}</span> <br />
                               <span>{title_bottom}</span>
-                           </h4>
+                           </h1>
                         </div>
                      </div>
                   </div>

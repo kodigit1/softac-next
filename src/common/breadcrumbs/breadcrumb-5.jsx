@@ -17,13 +17,13 @@ const BreadcrumbFive = () => {
         <div className="breadcrumb__shape-1">
           <Image
             src={shape_1}
-            alt="theme-pure"
+            alt=""
           />
         </div>
         <div className="breadcrumb__shape-2">
           <Image
             src={shape_2}
-            alt="theme-pure"
+            alt=""
           />
         </div>
         <div className="container">

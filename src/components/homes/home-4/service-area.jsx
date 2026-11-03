@@ -19,7 +19,7 @@ const ServiceArea = () => {
         <>
            <div className="tp-service-area blue-bg p-relative pt-115 pb-105">
                <div className="tp-service-shape-right z-index">
-                  <Image src={img} alt="theme-pure" />
+                  <Image src={img} alt="" />
                </div>
                <div className="container">
                   <div className="row align-items-end mb-60">
@@ -41,7 +41,7 @@ const ServiceArea = () => {
                             <div key={i} className={`col-xl-3 col-lg-4 col-md-6 mb-50 tp-service-4-border-right service-border-trang-${item.cls}`}>
                                 <div className="tp-service-4-item z-index">
                                     <div className="tp-service-4-icon">
-                                        <Image src={item.img} alt="theme-pure" />
+                                        <Image src={item.img} alt="" />
                                     </div>
                                     <div className="tp-service-4-content">
                                         <span>{item.sub_title}</span>

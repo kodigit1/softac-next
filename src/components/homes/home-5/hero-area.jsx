@@ -23,13 +23,13 @@ const HeroArea = () => {
         <>
             <div className="tp-hero-area tp-hero-five__ptb-5 p-relative grey-bg-2 fix">
                   <div className="tp-hero-five__shape-2">
-                     <Image src={shape_1} alt="theme-pure" />
+                     <Image src={shape_1} alt="" />
                   </div>
                   <div className="tp-hero-five__shape-3">
-                     <Image src={shape_2} alt="theme-pure" />
+                     <Image src={shape_2} alt="" />
                   </div>
                   <div className="tp-hero-five__shape-4">
-                     <Image src={shape_3} alt="theme-pure" />
+                     <Image src={shape_3} alt="" />
                   </div>
                   <div className="container">
                      <div className="row align-items-center">
@@ -61,13 +61,13 @@ const HeroArea = () => {
                   </div>
                   <div className="tp-hero-five-2-thumb-main p-relative">
                      <div className="tp-hero-five-2-thumb">
-                        <Image src={shape_4} className="tp-hero-five-2-thumb-inner" alt="theme-pure" />
+                        <Image src={shape_4} className="tp-hero-five-2-thumb-inner" alt="" />
                      </div>
                      <div className="tp-hero-five-2-sub-img-1 d-none d-md-block">
-                        <Image src={shape_5} alt="theme-pure" />
+                        <Image src={shape_5} alt="" />
                      </div>
                      <div className="tp-hero-five-2-sub-img-2 d-none d-md-block">
-                        <Image src={shape_6} alt="theme-pure" />
+                        <Image src={shape_6} alt="" />
                      </div>
                   </div>
                </div>

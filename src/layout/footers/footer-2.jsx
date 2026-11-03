@@ -87,7 +87,7 @@ const FooterTwo = () => {
                   <div className="tp-footer__widget footer-widget-2 footer-col-2-1">
                      <div className="tp-footer__logo mb-25">
                         <Link href="/">
-                           <Image src={footer_logo} alt="them-pure"/>
+                           <Image src={footer_logo} alt="Kodigit Beauty"/>
                         </Link>
                      </div>
                      <div className="tp-footer__contact-info">
@@ -128,11 +128,11 @@ const FooterTwo = () => {
                      <h4 className="tp-footer__widget-title">{download}</h4>
                      <div className="tp-footer__download-box d-flex align-items-center">
                         <div className="tp-footer__qrcode mr-15">
-                        <Link href="#"> <Image src={qr_code} alt="them-pure"/></Link>
+                        <Link href="#"> <Image src={qr_code} alt=""/></Link>
                         </div>
                         <div className="tp-footer__app">
-                           <Link href="#"><Image className="mb-15" src={i_phone} alt="them-pure"/></Link>
-                        <Link href="#"><Image src={google_ply} alt="them-pure"/></Link>
+                           <Link href="#"><Image className="mb-15" src={i_phone} alt=""/></Link>
+                        <Link href="#"><Image src={google_ply} alt=""/></Link>
                         </div>
                      </div>
                   </div>

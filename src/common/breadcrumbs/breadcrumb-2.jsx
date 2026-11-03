@@ -20,10 +20,10 @@ const BreadcrumbTwo = ({ title, innertitle, team_details, career_details }) => {
     <>
       <div className="breadcrumb__area breadcrumb-height p-relative blue-bg-2">
         <div className="breadcrumb__shape-1">
-          <Image src={shape_1} alt="theme-pure" />
+          <Image src={shape_1} alt="" />
         </div>
         <div className="breadcrumb__shape-2">
-          <Image src={shape_2} alt="theme-pure" />
+          <Image src={shape_2} alt="" />
         </div>
         <div className="container">
           <div className="row">
@@ -70,13 +70,13 @@ const BreadcrumbTwo = ({ title, innertitle, team_details, career_details }) => {
             </div>
             <div className="col-xl-4 col-lg-5 col-lg-4 text-center text-md-end">
               <div className="breadcrumb__img p-relative text-start z-index">
-                <Image className="z-index-3" src={shape_3} alt="theme-pure" />
+                <Image className="z-index-3" src={shape_3} alt="" />
                 <div
                   className="breadcrumb__sub-img wow tpfadeUp"
                   data-wow-duration=".9s"
                   data-wow-delay=".4s"
                 >
-                  <Image src={shape_4} alt="theme-pure" />
+                  <Image src={shape_4} alt="" />
                 </div>
               </div>
             </div>

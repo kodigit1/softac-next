@@ -64,7 +64,7 @@ const FooterFive = ({style_contact, bg_style=true, style_team}) => {
                   {style_contact && 
                      <>
                      <div className="tp-footer__shape-1 d-none d-xxl-block">
-                        <Image src={shape_img_1} alt="theme-pure" />
+                        <Image src={shape_img_1} alt="" />
                      </div>
                      <div className="tp-footer__shape-2 d-none d-xxl-block">
                         <Image src={shape_img_2} alt="" />

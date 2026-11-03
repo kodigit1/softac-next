@@ -74,7 +74,7 @@ const SalesArea = ({style_service}) => {
                         <div className="tp-sales-img-wrapper p-relative text-end">
                             {sales_img.map((item, i ) => 
                                 <div key={i} className={`tp-sales-${item.cls}`}>
-                                    <Image src={item.img} alt="theme-pure" />
+                                    <Image src={item.img} alt="" />
                                 </div>
                              )} 
 

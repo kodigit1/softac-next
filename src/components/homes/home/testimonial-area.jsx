@@ -114,7 +114,7 @@ const TestimonialArea = () => {
                                        <div className="col-xl-7 col-lg-7">
                                           <div className="tp-testimonial__left-item p-relative">
                                              <div className="tp-testimonial__logo">
-                                                <Image src={item?.img} alt="theme-pure" />
+                                                <Image src={item?.img} alt="" />
                                              </div>
                                              <div className="tp-testimonial__content z-index">
                                                 <p>{item.description} </p>

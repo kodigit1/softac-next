@@ -155,7 +155,7 @@ const IntegrationArea = ({style_integraton}) => {
                     {slider_one_data.map((item, i)  => 
                         <div key={i} className="tp-integration-slider-main slick-slide">
                         <div className="tp-integration-slider-item">
-                           <Image src={item} alt="theme-pure" />
+                           <Image src={item} alt="" />
                         </div>
                      </div>
                     )}                     
@@ -164,7 +164,7 @@ const IntegrationArea = ({style_integraton}) => {
                     {slider_two_data.map((item, i)  => 
                         <div key={i} className="tp-integration-slider-main slick-slide">
                         <div className="tp-integration-slider-item">
-                           <Image src={item} alt="theme-pure" />
+                           <Image src={item} alt="" />
                         </div>
                      </div>
                         

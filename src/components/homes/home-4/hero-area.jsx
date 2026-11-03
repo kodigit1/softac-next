@@ -28,10 +28,10 @@ const HeroArea = () => {
         <>
             <div className="tp-hero-area tp-hero-overlay blue-bg pt-200 pb-115 p-relative">
                <div className="tp-hero-4-shape-img  wow tpfadeLeft" data-wow-duration=".9s" data-wow-delay=".5s">
-                  <Image src={hero_shape} alt="theme-pure" />
+                  <Image src={hero_shape} alt="" />
                </div>
                <div className="tp-hero-glob-img">
-                  <Image src={hero_img} alt="theme-pure" />
+                  <Image src={hero_img} alt="" />
                </div>
                <div className="container">
                   <div className="row">
@@ -51,10 +51,10 @@ const HeroArea = () => {
                      <div className="col-xl-5 col-lg-5">
                         <div className="tp-hero-4-img-wrapper p-relative">
                            <div className="tp-hero-4-main-img text-center z-index-3">
-                              <Image src={hero_4_img_1} alt="theme-pure" />
+                              <Image src={hero_4_img_1} alt="" />
                            </div>
                            <div className="tp-hero-4-sub-img z-index-3">
-                              <Image src={hero_4_img_2} alt="theme-pure" />
+                              <Image src={hero_4_img_2} alt="" />
                            </div>
                         </div>
                      </div>

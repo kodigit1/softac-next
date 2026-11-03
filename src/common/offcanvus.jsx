@@ -20,7 +20,7 @@ const Offcanvus = ({sidebarOpen, setSidebarOpen}) => {
                     </div>
                     <div className="tpoffcanvas__logo text-center">
                     <Link href="/" onClick={() => setSidebarOpen(false)}>
-                        <Image src={logo} alt="theme-pure" />
+                        <Image src={logo} alt="Kodigit Beauty" />
                     </Link>
                     </div>
                     <div className="mobile-menu mean-container">
@@ -30,10 +30,10 @@ const Offcanvus = ({sidebarOpen, setSidebarOpen}) => {
                     <div className="tpoffcanvas__instagram-title">
                         <h4>Beauty Service </h4>
                     </div>  
-                    <Link href="#"><Image src={canvus_img_1}  alt="theme-pure" /></Link>
-                    <Link href="#"><Image src={canvus_img_2}  alt="theme-pure" /></Link>
-                    <Link href="#"><Image src={canvus_img_3}  alt="theme-pure" /></Link>
-                    <Link href="#"><Image src={canvus_img_4}  alt="theme-pure" /></Link>
+                    <Link href="#"><Image src={canvus_img_1}  alt="" /></Link>
+                    <Link href="#"><Image src={canvus_img_2}  alt="" /></Link>
+                    <Link href="#"><Image src={canvus_img_3}  alt="" /></Link>
+                    <Link href="#"><Image src={canvus_img_4}  alt="" /></Link>
                     </div>
                     <div className="tpoffcanvas__info text-center">
                     <h4 className="offcanva-title">Agenda Elettronica</h4>

@@ -6,7 +6,7 @@ import Wrapper from "../layout/wrapper";
 const index = () => {
   return (
     <Wrapper>
-      <SEO pageTitle={"Kodigit Beauty - gestione appuntamenti per Centri Estetici e Hair Stylist"} />
+      <SEO pageTitle={"Kodigit Beauty - gestione appuntamenti per Centri Estetici e Hair Stylist"} noindex />
       <HomeThree />
     </Wrapper>
   );

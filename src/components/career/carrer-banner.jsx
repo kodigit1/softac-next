@@ -27,7 +27,7 @@ const CarrerBanner = () => {
           <div className="row align-items-center">
             <div className="col-xl-3 col-lg-3 col-md-6">
               <div className="carrer-banner-img-item">
-                <Image src={img_1} alt="theme-pure" />
+                <Image src={img_1} alt="" />
               </div>
             </div>
             <div className="col-xl-6 col-lg-6 col-md-6">
@@ -42,10 +42,10 @@ const CarrerBanner = () => {
             </div>
             <div className="col-xl-3 col-lg-3 d-none d-lg-block">
               <div className="carrer-banner-img-item mb-20">
-                <Image src={img_3} alt="theme-pure" />
+                <Image src={img_3} alt="" />
               </div>
               <div className="carrer-banner-img-item">
-                <Image src={img_4} alt="theme-pure" />
+                <Image src={img_4} alt="" />
               </div>
             </div>
           </div>

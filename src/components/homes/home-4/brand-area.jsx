@@ -69,14 +69,14 @@ const BrandArea = () => {
            <div className="tp-barnd-area tp-barnd-plr blue-bg z-index-3 fix">
                <div className="tp-barnd-main-wrapper p-relative">
                   <div className="tp-barnd-shape-1">
-                     <Image src={shape_1} alt="theme-pure" />
+                     <Image src={shape_1} alt="" />
                   </div>
                   <div className="container">
                      <div className="row align-items-center">
                         <div className="col-xl-4 col-lg-4">
                            <div className="tp-barnd-left-item d-flex align-items-center">
                               <div className="tp-barnd-icon">
-                                 <Image src={shape_2} alt="theme-pure" />
+                                 <Image src={shape_2} alt="" />
                               </div>
                               <h5 className="tp-barnd-title-sm">2k Companies <br /> Trusted in the world</h5>
                            </div>
@@ -89,7 +89,7 @@ const BrandArea = () => {
                                 <Slider ref={sliderRef} {...settings}>
                                 {brand_data.map((item, i)  => 
                                 <div key={i} className="tp-brand-item">
-                                    <Image src={item} alt="theme-pure" />
+                                    <Image src={item} alt="" />
                                  </div>
                                  )} 
                                  </Slider>

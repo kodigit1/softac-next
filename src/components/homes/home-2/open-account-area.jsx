@@ -78,7 +78,7 @@ const OpenAccountArea = () => {
                 >
                   {account_shape.map((item, i) => (
                     <div key={i} className={`tp-account-${item.cls}`}>
-                      <Image src={item.img} alt="theme-pure" />
+                      <Image src={item.img} alt="" />
                     </div>
                   ))}
                 </div>

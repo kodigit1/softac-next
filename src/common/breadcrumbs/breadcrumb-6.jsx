@@ -21,10 +21,10 @@ const BreadcrumbSix = () => {
         <>
             <div className="breadcrumb__area breadcrumb-ptb-4 p-relative blue-bg-2">
             <div className="breadcrumb__shape-1">
-               <Image src={img_1} alt="theme-pure" />
+               <Image src={img_1} alt="" />
             </div>
             <div className="breadcrumb__shape-2">
-               <Image src={img_2} alt="theme-pure" />
+               <Image src={img_2} alt="" />
             </div>
             <div className="container">
                <div className="row align-items-end">
@@ -36,7 +36,7 @@ const BreadcrumbSix = () => {
                         </div>
                         <div className="tp-blog-author-info-box d-flex align-items-center">
                            <div className="tp-blog-avata">
-                              <Image src={img_3} alt="theme-pure" />
+                              <Image src={img_3} alt="" />
                            </div>
                            <div className="tp-blog-author-info">
                               <h5>{author_name}</h5>

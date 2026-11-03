@@ -47,7 +47,7 @@ const HeroArea = () => {
         style={{ backgroundImage: `url(${bg_img})` }}
       >
         <div className="scroll-bg d-none d-sm-block">
-          <Image src={scroll_bg} alt="theme-pure" />
+          <Image src={scroll_bg} alt="" />
         </div>
         <div className="tp-hero-2__mouse-scroll smooth d-none d-sm-block">
           <a className="mouse-scroll-btn" href="#payment-method"></a>
@@ -79,7 +79,7 @@ const HeroArea = () => {
               <div className="tp-hero-2__user p-relative">
                 <h4 className="tp-char-animation-2" >{sub_title}</h4>
                 <div className="tp-hero-2__user-img">
-                  <Image src={users_img} alt="theme-pure" />
+                  <Image src={users_img} alt="" />
                 </div>
                 <div className="tp-hero-2__shape-1">
                   <RoundLine />
@@ -93,29 +93,29 @@ const HeroArea = () => {
                   className="tp-hero-2__main-img wow tpfadeRight"
                   data-wow-duration=".9s"
                   data-wow-delay=".5s" >
-                  <Image src={hero_shape_1} alt="theme-pure" />
+                  <Image src={hero_shape_1} alt="" />
                 </div>
 
                 <div
                   className="tp-hero-2__sub-img-1 d-none d-sm-block"
                   data-parallax='{"x": 100, "smoothness": 30}' >
-                  <Image src={hero_shape_2} alt="theme-pure" />
+                  <Image src={hero_shape_2} alt="" />
                 </div>
 
                 <div
                   className="tp-hero-2__sub-img-2 d-none d-sm-block"
                   data-parallax='{"x": -100, "smoothness": 10}' >
-                  <Image src={hero_shape_3} alt="theme-pure" />
+                  <Image src={hero_shape_3} alt="" />
                 </div>
 
                 <div
                   className="tp-hero-2__sub-img-3 d-none d-sm-block"
                   data-parallax='{"y": -80, "smoothness": 30}' >
-                  <Image src={hero_shape_4} alt="theme-pure" />
+                  <Image src={hero_shape_4} alt="" />
                 </div>
 
                 <div className="tp-hero-2__sub-img-4">
-                  <Image src={hero_shape_5} alt="theme-pure" />
+                  <Image src={hero_shape_5} alt="" />
                 </div>
               </div>
             </div>

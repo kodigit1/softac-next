@@ -19,10 +19,10 @@ const BreadcrumbFour = () => {
     <>
       <div className="breadcrumb__area breadcrumb-ptb-3 p-relative blue-bg-2">
         <div className="breadcrumb__shape-1">
-          <Image src={shape_1} alt="theme-pure" />
+          <Image src={shape_1} alt="" />
         </div>
         <div className="breadcrumb__shape-2">
-          <Image src={shape_2} alt="theme-pure" />
+          <Image src={shape_2} alt="" />
         </div>
         <div className="container">
           <div className="row">
@@ -48,7 +48,7 @@ const BreadcrumbFour = () => {
             </div>
             <div className="col-xl-7 col-lg-5 col-lg-4 text-center text-md-end">
               <div className="breadcrumb__img p-relative text-start z-index">
-                <Image className="z-index-3" src={shape_3} alt="theme-pure" />
+                <Image className="z-index-3" src={shape_3} alt="" />
               </div>
             </div>
           </div>

@@ -51,7 +51,7 @@ const Portfolio = () => {
                                         <SwiperSlide key={i} className="swiper-slide">
                                             <div className="tp-blog-item">
                                                 <div className="tp-blog-thumb fix">
-                                                    <Link href="#"><Image src={item.thumb_img} alt="theme-pure" /></Link>
+                                                    <Link href="#"><Image src={item.thumb_img} alt="" /></Link>
                                                 </div>
                                                 <div className="tp-blog-content">
                                                     <div className="tp-blog-meta d-flex align-items-center">
@@ -67,7 +67,7 @@ const Portfolio = () => {
                                                     </div>
                                                     <div className="tp-blog-author-info-box d-flex align-items-center">
                                                         <div className="tp-blog-avata">
-                                                            <Image src={item.avata_img} alt="theme-pure" />
+                                                            <Image src={item.avata_img} alt="" />
                                                         </div>
                                                         <div className="tp-blog-author-info">
                                                             <h5>{item.name}</h5>

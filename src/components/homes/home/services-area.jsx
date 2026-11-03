@@ -44,7 +44,7 @@ const ServicesArea = () => {
                         <div key={i} className="col-xl-4 col-lg-4 col-md-6 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay={item.delay}>
                             <div className="tp-service__item mb-30">
                                 <div className="tp-service__icon">
-                                    <Image src={item.img} alt="theme-pure" />
+                                    <Image src={item.img} alt="" />
                                 </div>
                                 <div className="tp-service__content">
                                     <h3 className="tp-service__title-sm tp-yellow-color"><Link href="/service-details">{item.title}</Link></h3>
@@ -72,7 +72,7 @@ const ServicesArea = () => {
                            </div>
                            <div className="tp-service__dashdboard-sm-img">
                               <Image className="wow tpfadeRight" data-wow-duration=".9s" data-wow-delay=".7s" 
-                              src={img} alt="theme-pure" />
+                              src={img} alt="" />
                            </div>
                         </div>
                      </div>

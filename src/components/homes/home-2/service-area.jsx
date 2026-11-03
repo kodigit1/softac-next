@@ -85,7 +85,7 @@ const ServiceArea = () => {
         <>
             <div className="tp-service-2__area p-relative pt-70 pb-160">
                <div className="tp-service-2__shape">
-                  <Image src={bg_img} alt="theme-pure" />
+                  <Image src={bg_img} alt="" />
                </div>
                <div className="container z-index-5">
                   <div className="row align-items-center mb-50">
@@ -117,7 +117,7 @@ const ServiceArea = () => {
                         <div className="tp-service-2__item-wrapper p-relative">
                            <div className="tp-service-2__item d-flex justify-content-between flex-column">
                               <div className="tp-service-2__icon">
-                                 <Image src={item.img} alt="theme-pure" />
+                                 <Image src={item.img} alt="" />
                               </div>
                               <div className="tp-service-2__text">
                                  <h4 className="tp-service-2__title-sm"><Link href="/service-details">{item.title}</Link></h4>

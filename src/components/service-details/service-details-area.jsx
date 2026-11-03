@@ -79,7 +79,7 @@ const ServiceDetailsArea = () => {
                            </div>
                            <div className="tp-service__dashdboard-sm-img">
                               <Image src={dashbord} className="wow tpfadeRight" data-wow-duration=".9s" data-wow-delay=".3s" 
-                               alt="theme-pure" />
+                               alt="" />
                            </div>
                         </div>
 
@@ -99,7 +99,7 @@ const ServiceDetailsArea = () => {
                   <div className="col-xl-8 col-lg-8">
                      <div className="sv-details-wrapper">
                         <div className="sv-details-thumb mb-45">
-                           <Image className="w-100" src={service_img} alt="theme-pure" />
+                           <Image className="w-100" src={service_img} alt="" />
                         </div>
                         <div className="sv-details-title-box mb-55">
                            <h4 className="sv-details-title">{overview_title}</h4>

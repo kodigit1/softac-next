@@ -85,7 +85,7 @@ const PostboxArea = () => {
                                 {item.img && 
                                     <div className="postbox__thumb w-img">
                                         <Link href="/blog-details">
-                                            <Image src={item.img} alt="theme-pure" />
+                                            <Image src={item.img} alt="" />
                                         </Link>
                                     </div>
                                 }
@@ -93,7 +93,7 @@ const PostboxArea = () => {
                                 item.video.map((item, i) => 
                                     <div key={i} className="postbox__thumb postbox__video w-img  p-relative">
                                         <Link href="/blog-details">
-                                            <Image src={item.video_tum} alt="theme-pure" />
+                                            <Image src={item.video_tum} alt="" />
                                         </Link>
                                         {/* video modal start */}
                                         <VideoPopup

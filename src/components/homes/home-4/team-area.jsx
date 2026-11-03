@@ -82,7 +82,7 @@ const TeamArea = ({bg_style}) => {
                                       >                             
                            <div className={`tp-team-item text-center ${bg_style && "tp-team-inner-title-color"} z-index`}>    
                               <div className="tp-team-img">
-                                 <Image src={item.img} alt="theme-pure" />
+                                 <Image src={item.img} alt="" />
                               </div>
                               <div className="tp-team-content">
                                  <h4 className="tp-team-title-sm"><Link href="/team-details">{item.name}</Link></h4>

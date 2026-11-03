@@ -33,7 +33,7 @@ const BlogArea = () => {
                             data-wow-delay=".7s">
                             <div className="tp-blog-four-item p-relative fix">
                             <div className="tp-blog-four-img fix">
-                                <Link href="#"><Image src={item.img} alt="theme-pure" /></Link>
+                                <Link href="#"><Image src={item.img} alt="" /></Link>
                             </div>
                             <div className="tp-blog-four-content-wrapper">
                                 <div className="tp-blog-four-meta">

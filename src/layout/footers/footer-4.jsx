@@ -45,7 +45,7 @@ const FooterFour = () => {
             <div className="tp-footer__pl-pr blue-bg z-index fix">
                <div className="tp-footer__area tp-footer__border-bottom-4 fix">
                   <div className="tp-footer-bottom-shape">
-                     <Image src={footer_shape} alt="theme-pure" />
+                     <Image src={footer_shape} alt="" />
                   </div>
                   <div className="container">
                      <div className="row">
@@ -53,7 +53,7 @@ const FooterFour = () => {
                            <div className="tp-footer__widget footer-widget-4 footer-col-4-1">
                               <div className="tp-footer__logo mb-25">
                                  <Link href="/">
-                                    <Image src={footer_logo} alt="theme-pure" />
+                                    <Image src={footer_logo} alt="Kodigit Beauty" />
                                  </Link>
                               </div>
                               <h3 className="footer-subtitle-3">{sub_title}</h3>

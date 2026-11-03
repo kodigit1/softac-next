@@ -11,7 +11,7 @@ const Banner = () => {
                <div className="row">
                   <div className="col-xl-12">
                      <div className="blog-details-big-img z-index-2">
-                        <Image src={brand_img} alt="theme-pure" />
+                        <Image src={brand_img} alt="" />
                      </div>
                   </div>
                </div>

@@ -52,9 +52,9 @@ const Portfolio = () => {
                         <div key={i} className="col-xl-4 col-lg-6 col-md-6 col-sm-6 grid-item  cat1 cat4 cat3 cat5">
                             <div className="inner-project-item mb-30">
                             <div className="inner-project-img fix p-relative">
-                                <Image className="w-100" src={item.thumb_img} alt="theme-pure" />
+                                <Image className="w-100" src={item.thumb_img} alt={item.title} />
                                 <div className="inner-project-brand">
-                                    <Image src={item.brand_logo} alt="theme-pure" />
+                                    <Image src={item.brand_logo} alt="" />
                                 </div>
                             </div>
                             <div className="inner-project-content">

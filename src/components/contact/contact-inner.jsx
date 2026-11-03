@@ -4,8 +4,6 @@ import React from "react";
 
 
 import icon_1 from "../../../public/assets/img/contact/contact-icon-sm-1.png";
-import icon_2 from "../../../public/assets/img/contact/contact-icon-sm-2.png";
-import icon_3 from "../../../public/assets/img/contact/contact-icon-sm-3.png";
 
 
 const inner_content = {
@@ -18,18 +16,6 @@ const inner_content = {
       icon: icon_1,
       title: "info@kodigit.agency",
       link: "mailto:info@kodigit.agency",
-    },
-    {
-      id: 2,
-      icon: icon_2,
-      title: "+39 3406505294",
-      link: "tel:+393406505294",
-    },
-    {
-      id: 3,
-      icon: icon_3,
-      title: "Via D'azeglio, Bologna",
-      link: "https://www.google.com.bd/maps/@44.39741,12.04017",
     },
   ],
 };
@@ -49,12 +35,12 @@ const ContactInner = () => {
             </div>
           </div>
           <div className="contact-inner-wrapper">
-            <div className="row gx-0">
+            <div className="row gx-0 justify-content-center">
               {contact_data.map((item, i) => (
-                <div key={i} className="col-xl-4 col-lg-4">
+                <div key={i} className="col-12">
                   <div className="contact-inner-item d-flex align-items-center justify-content-center">
                     <div className="contact-inner-img contact-img-1">
-                      <Image src={item.icon} alt="theme-pure" />
+                      <Image src={item.icon} alt="" />
                     </div>
                     <div className="contact-inner-link">
                       <Link href={`${item.link}`}>{item.title}</Link>

@@ -34,19 +34,19 @@ const HeroArea = () => {
       <>
          <div className="tp-hero-area tp-hero-pt pt-170 pb-70 p-relative">
             <div className="tp-hero-left-shape">
-               <Image src={left_shape} alt="them-pure" />
+               <Image src={left_shape} alt="" />
             </div>
             <div className="tp-hero-gradient-bg">
-               <Image src={gradient_bg} alt="them-pure" />
+               <Image src={gradient_bg} alt="" />
             </div>
             <div className="container">
                <div className="row justify-content-center z-index-3">
                   <div className="col-xl-11">
                      <div className="tp-hero-title-box text-center">
-                        <h2 className="tp-hero-title-3 hero-text-anim pb-5">
+                        <h1 className="tp-hero-title-3 hero-text-anim pb-5">
                            <i><i className="child-1">{title_1}</i></i>
                            <i><i className="child-1">{title_2}</i></i>
-                        </h2>
+                        </h1>
                         <p className="tp-char-animation-2 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".7s">{info}</p>
                      </div>
                      <div className="tp-hero-btn-3 text-center wow tpfadeUp" data-wow-duration="1s" data-wow-delay=".9s">
@@ -66,10 +66,10 @@ const HeroArea = () => {
                            <span className="redius-shape-3"></span>
                         </div>
                         <div className="tp-hero-3-main-thumb z-index-5">
-                           <Image src={img_1} alt="them-pure" />
+                           <Image src={img_1} alt="" />
                         </div>
                         <div className="tp-hero-3-shape-5 d-none d-lg-block wow frist-img animated">
-                           <Image src={img_2} alt="them-pure" />
+                           <Image src={img_2} alt="" />
                         </div>
                         <div className="tp-hero-3-shape-6 d-none d-lg-block">
                            <span> <BounceLine /> </span>

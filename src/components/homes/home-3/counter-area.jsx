@@ -20,13 +20,13 @@ const CounterArea = () => {
       <>
         <div className="tp-counter-area tp-counter-space p-relative pb-140">
           <div className="tp-counter-shape-2">
-            <Image src={counter_shape_1} alt="theme-pure" />
+            <Image src={counter_shape_1} alt="" />
           </div>
           <div className="tp-counter-shape-3">
-            <Image src={counter_shape_2} alt="theme-pure" />
+            <Image src={counter_shape_2} alt="" />
           </div>
           <div className="tp-counter-shape-4 d-none d-sm-block">
-            <Image src={counter_shape_3} alt="theme-pure" />
+            <Image src={counter_shape_3} alt="" />
           </div>
           <div className="container">
             <div className="tp-counter-wrapper p-relative">

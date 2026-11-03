@@ -58,7 +58,7 @@ const Brand = () => {
                         data-wow-delay={item.delay}
                       >
                         <div className="ab-brand-item mb-25">
-                          <Image src={item.img} alt="theme-pure" />
+                          <Image src={item.img} alt="" />
                         </div>
                       </div>
                     ))}
